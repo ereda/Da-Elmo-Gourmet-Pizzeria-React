@@ -1,0 +1,13 @@
+.about-us-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.about-us-container2 {
+  display: none;
+}
+ 
+.about-us-container3 {
+  display: contents;
+}

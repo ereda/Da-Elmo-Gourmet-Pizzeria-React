@@ -1,0 +1,57 @@
+.gourmet-pizza-menu-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.gourmet-pizza-menu-hero-carouselbg-layer1 {
+  background-image: url('https://images.pexels.com/photos/5640042/pexels-photo-5640042.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-hero-carouselbg-layer2 {
+  background-image: url('https://images.pexels.com/photos/3761663/pexels-photo-3761663.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-hero-carouselbg-layer3 {
+  background-image: url('https://images.pexels.com/photos/23017570/pexels-photo-23017570.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-pizza-galleryitem-bg1 {
+  background-image: url('https://images.pexels.com/photos/14373594/pexels-photo-14373594.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-pizza-galleryitem-bg2 {
+  background-image: url('https://images.pexels.com/photos/5953576/pexels-photo-5953576.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-pizza-galleryitem-bg3 {
+  background-image: url('https://images.pexels.com/photos/8251350/pexels-photo-8251350.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-pizza-galleryitem-bg4 {
+  background-image: url('https://images.pexels.com/photos/5953532/pexels-photo-5953532.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-pizza-galleryitem-bg5 {
+  background-image: url('https://images.pexels.com/photos/29422006/pexels-photo-29422006.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-pizza-galleryitem-bg6 {
+  background-image: url('https://images.pexels.com/photos/2918537/pexels-photo-2918537.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-container2 {
+  display: none;
+}
+ 
+.gourmet-pizza-menu-container3 {
+  display: contents;
+}
+ 
+.gourmet-pizza-menu-container4 {
+  display: none;
+}
+ 
+.gourmet-pizza-menu-container5 {
+  display: contents;
+}

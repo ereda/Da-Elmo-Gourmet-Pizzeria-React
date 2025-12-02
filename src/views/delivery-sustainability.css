@@ -1,0 +1,41 @@
+.delivery-sustainability-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.delivery-sustainability-container2 {
+  display: none;
+}
+ 
+.delivery-sustainability-container3 {
+  display: contents;
+}
+ 
+.delivery-sustainability-hero-parallax-bg1 {
+  background-image: url('https://images.pexels.com/photos/5056830/pexels-photo-5056830.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.delivery-sustainability-hero-parallax-bg2 {
+  background-image: url('https://images.pexels.com/photos/4393515/pexels-photo-4393515.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.delivery-sustainability-hero-parallax-bg3 {
+  background-image: url('https://images.pexels.com/photos/10790638/pexels-photo-10790638.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.delivery-sustainability-container4 {
+  display: none;
+}
+ 
+.delivery-sustainability-container5 {
+  display: contents;
+}
+ 
+.delivery-sustainability-container6 {
+  display: none;
+}
+ 
+.delivery-sustainability-container7 {
+  display: contents;
+}
