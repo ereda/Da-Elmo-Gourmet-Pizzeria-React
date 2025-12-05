@@ -98,39 +98,6 @@ const Footer = (props) => {
                     viewBox="0 0 24 24"
                     className="footer-contact-icon"
                   >
-                    <path
-                      d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                </div>
-                <a href="tel:+15551234567">
-                  <div className="footer-contact-link section-content">
-                    <span>
-                      {' '}
-                      +1 (555) 123-4567
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </div>
-                </a>
-              </div>
-              <div className="footer-contact-item">
-                <div className="footer-contact-icon-wrapper">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    className="footer-contact-icon"
-                  >
                     <g
                       fill="none"
                       stroke="currentColor"
@@ -218,29 +185,6 @@ const Footer = (props) => {
                   >
                     <path
                       d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                </div>
-              </a>
-              <a href="#twitter">
-                <div
-                  aria-label="Follow us on Twitter"
-                  className="footer-social-link"
-                >
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    className="footer-social-icon"
-                  >
-                    <path
-                      d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6c2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4c-.9-4.2 4-6.6 7-3.8c1.1 0 3-1.2 3-1.2"
                       fill="none"
                       stroke="currentColor"
                       strokeWidth="2"
