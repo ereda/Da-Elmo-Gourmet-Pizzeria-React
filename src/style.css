@@ -5105,6 +5105,67 @@
  
 
  
+.nav-logo-container {
+  gap: var(--spacing-sm);
+  display: flex;
+  max-width: 180px;
+  align-items: center;
+}
+ 
+.nav-logo-icon {
+  color: var(--color-primary);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.nav-logo-text {
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.nav-logo-brand {
+  color: var(--color-on-surface);
+  font-size: 26px;
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-heading);
+  line-height: 1.1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+ 
+.nav-logo-descriptor {
+  color: var(--color-on-surface-secondary);
+  font-size: 12px;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-body);
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+ 
+.nav-logo-icon  svg {
+  width: 100%;
+  height: 100%;
+}
+ 
+.nav-logo {
+  width: auto;
+  height: 54px;
+  display: block;
+  object-fit: contain;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+ 
+.nav-logo:hover {
+  opacity: 0.85;
+  transform: scale(1.02);
+}
+ 
 .Headings {
   font-size: 2em;
   font-family: Playfair Display;
@@ -5836,6 +5897,22 @@
     width: 48px;
     height: 48px;
   }
+  .nav-logo-container {
+    max-width: 160px;
+  }
+  .nav-logo-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .nav-logo-brand {
+    font-size: 22px;
+  }
+  .nav-logo-descriptor {
+    font-size: 10px;
+  }
+  .nav-logo {
+    height: 46px;
+  }
 }
  
 @media(max-width: 479px) {
@@ -5919,5 +5996,8 @@
   }
   .wine-pairing-card {
     padding: var(--spacing-lg);
+  }
+  .nav-logo {
+    height: 42px;
   }
 }

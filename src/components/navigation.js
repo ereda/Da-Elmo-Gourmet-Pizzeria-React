@@ -36,9 +36,25 @@ const Navigation = (props) => {
               aria-label="Microcrust Pizza Homepage"
               className="navigation-logo"
             >
-              <span className="section-title navigation-logo-text">
-                Microcrust
-              </span>
+              <div className="nav-logo-container">
+                <div className="nav-logo-icon">
+                  <img
+                    src="/elmo-pizzeria-no-padding-200w.jpg"
+                    alt="Gourmet pizza delivery - Chef-perfected artisan pizzas with fresh microgreen garnish"
+                    width="180"
+                    height="60"
+                    className="nav-logo"
+                  />
+                </div>
+                <div className="nav-logo-text">
+                  <div className="nav-logo-brand">
+                    <span>Da Elmo</span>
+                  </div>
+                  <div className="nav-logo-descriptor">
+                    <span>Gourmet Pizzeria</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </a>
           <ul className="navigation-links">
