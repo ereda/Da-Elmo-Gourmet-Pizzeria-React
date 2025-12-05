@@ -2,6 +2,15 @@
   display: contents;
 }
  
+.footer-footer-logo-container {
+  backdrop-filter: blur(5px);
+}
+ 
+.footer-image {
+  width: 200px;
+  object-fit: cover;
+}
+ 
 .footer-footer-social-link1 {
   text-decoration: none;
 }

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import PropTypes from 'prop-types'
+
 import './footer.css'
 
 const Footer = (props) => {
@@ -9,10 +11,12 @@ const Footer = (props) => {
         <div className="footer-decorative-overlay"></div>
         <div className="footer-content-wrapper">
           <div className="footer-brand-section">
-            <div className="footer-logo-container">
-              <h2 className="footer-brand-name section-title">
-                Microcrust Pizza
-              </h2>
+            <div className="footer-footer-logo-container footer-logo-container">
+              <img
+                src={props.imageSrc4}
+                alt={props.imageAlt4}
+                className="footer-image"
+              />
               <p className="footer-tagline section-content">
                 Gourmet Pizza, Delivered.
               </p>
@@ -277,6 +281,16 @@ const Footer = (props) => {
       </footer>
     </div>
   )
+}
+
+Footer.defaultProps = {
+  imageSrc4: '/elmo-pizzeria-transparent-200w.png',
+  imageAlt4: 'image',
+}
+
+Footer.propTypes = {
+  imageSrc4: PropTypes.string,
+  imageAlt4: PropTypes.string,
 }
 
 export default Footer
