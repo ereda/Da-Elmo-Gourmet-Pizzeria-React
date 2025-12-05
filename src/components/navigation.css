@@ -10,6 +10,23 @@
   display: contents;
 }
  
+.navigation-navigation-container {
+  height: 80px;
+}
+ 
+.navigation-nav-logo-icon {
+  margin-right: 14px;
+}
+ 
+.navigation-nav-logo {
+  height: 70px;
+}
+ 
+.navigation-nav-logo-text {
+  align-self: center;
+  flex-shrink: 0;
+}
+ 
 .navigation-navigation-link1 {
   text-decoration: none;
 }

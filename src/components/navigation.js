@@ -30,23 +30,23 @@ const Navigation = (props) => {
         </div>
       </div>
       <nav className="navigation">
-        <div className="navigation-container">
+        <div className="navigation-navigation-container navigation-container">
           <a href="/">
             <div
               aria-label="Microcrust Pizza Homepage"
               className="navigation-logo"
             >
               <div className="nav-logo-container">
-                <div className="nav-logo-icon">
+                <div className="navigation-nav-logo-icon nav-logo-icon">
                   <img
-                    src="/elmo-pizzeria-no-padding-200w.jpg"
                     alt="Gourmet pizza delivery - Chef-perfected artisan pizzas with fresh microgreen garnish"
+                    src="/elmo-pizzeria-no-padding-200w.jpg"
                     width="180"
                     height="60"
-                    className="nav-logo"
+                    className="navigation-nav-logo nav-logo"
                   />
                 </div>
-                <div className="nav-logo-text">
+                <div className="navigation-nav-logo-text nav-logo-text">
                   <div className="nav-logo-brand">
                     <span>Da Elmo</span>
                   </div>
