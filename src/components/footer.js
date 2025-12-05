@@ -82,13 +82,7 @@ const Footer = (props) => {
                   </svg>
                 </div>
                 <span className="footer-contact-text section-content">
-                  {' '}
-                  123 Artisan Lane, Kitchen District
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  3954 Boulevard Leman, Laval
                 </span>
               </div>
               <div className="footer-contact-item">
@@ -147,15 +141,7 @@ const Footer = (props) => {
                 </div>
                 <a href="mailto:info@microcrustpizza.com?subject=">
                   <div className="footer-contact-link section-content">
-                    <span>
-                      {' '}
-                      info@microcrustpizza.com
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
+                    <span> hello@daelmogourmetpizzeria.ca</span>
                   </div>
                 </a>
               </div>
@@ -178,10 +164,14 @@ const Footer = (props) => {
           </div>
           <div className="footer-social-section">
             <div className="footer-social-links">
-              <a href="#instagram">
+              <a
+                href="https://www.instagram.com/daelmogourmetpizzeria/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <div
                   aria-label="Follow us on Instagram"
-                  className="footer-social-link"
+                  className="footer-footer-social-link1 footer-social-link"
                 >
                   <svg
                     width="24"

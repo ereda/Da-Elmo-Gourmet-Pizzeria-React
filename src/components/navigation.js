@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Script from 'dangerous-html/react'
 
@@ -42,29 +43,29 @@ const Navigation = (props) => {
           </a>
           <ul className="navigation-links">
             <li className="navigation-link-item">
-              <a href="/">
-                <div className="navigation-link">
+              <Link to="/">
+                <div className="navigation-navigation-link1 navigation-link">
                   <span>Homepage</span>
                 </div>
-              </a>
+              </Link>
             </li>
             <li className="navigation-link-item">
-              <a href="/menu">
-                <div className="navigation-link">
+              <Link to="/gourmet-pizza-menu">
+                <div className="navigation-navigation-link2 navigation-link">
                   <span>Gourmet Pizza Menu</span>
                 </div>
-              </a>
+              </Link>
             </li>
             <li className="navigation-link-item">
-              <a href="/about">
-                <div className="navigation-link">
+              <Link to="/about-us">
+                <div className="navigation-navigation-link3 navigation-link">
                   <span>About Us</span>
                 </div>
-              </a>
+              </Link>
             </li>
             <li className="navigation-link-item">
-              <a href="/delivery">
-                <div className="navigation-link">
+              <Link to="/delivery-sustainability">
+                <div className="navigation-navigation-link4 navigation-link">
                   <span>
                     {' '}
                     Delivery &amp; Sustainability
@@ -75,7 +76,7 @@ const Navigation = (props) => {
                     />
                   </span>
                 </div>
-              </a>
+              </Link>
             </li>
           </ul>
           <button
