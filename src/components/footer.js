@@ -13,8 +13,8 @@ const Footer = (props) => {
           <div className="footer-brand-section">
             <div className="footer-footer-logo-container footer-logo-container">
               <img
-                src={props.imageSrc4}
                 alt={props.imageAlt4}
+                src={props.imageSrc4}
                 className="footer-image"
               />
               <p className="footer-tagline section-content">
@@ -142,7 +142,7 @@ const Footer = (props) => {
               >
                 <div
                   aria-label="Follow us on Instagram"
-                  className="footer-footer-social-link1 footer-social-link"
+                  className="footer-footer-social-link footer-social-link"
                 >
                   <svg
                     width="24"
@@ -171,36 +171,13 @@ const Footer = (props) => {
                   </svg>
                 </div>
               </a>
-              <a href="#facebook">
-                <div
-                  aria-label="Follow us on Facebook"
-                  className="footer-social-link"
-                >
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    className="footer-social-icon"
-                  >
-                    <path
-                      d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                </div>
-              </a>
             </div>
           </div>
           <div className="footer-divider"></div>
           <div className="footer-bottom-section">
             <p className="footer-legal-text section-content">
               {' '}
-              &amp;copy; 2025 Microcrust Pizza. All rights reserved.
+              2025 Da Elmo Gourmet Pizzeria Inc. All rights reserved.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -228,13 +205,13 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  imageSrc4: '/elmo-pizzeria-transparent-200w.png',
   imageAlt4: 'image',
+  imageSrc4: '/elmo-pizzeria-transparent-200w.png',
 }
 
 Footer.propTypes = {
-  imageSrc4: PropTypes.string,
   imageAlt4: PropTypes.string,
+  imageSrc4: PropTypes.string,
 }
 
 export default Footer
