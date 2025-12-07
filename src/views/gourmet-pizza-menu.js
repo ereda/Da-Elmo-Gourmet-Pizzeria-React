@@ -173,7 +173,7 @@ const GourmetPizzaMenu = (props) => {
               <div className="menu-list__item-image">
                 <img
                   alt="Funghi e Cipolla Pizza with mushrooms and onions"
-                  src="https://images.pexels.com/photos/14373594/pexels-photo-14373594.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="/ai-generated/ai-generated-1765076038197-1500w.png"
                 />
                 <div className="menu-list__item-badge">
                   <svg
@@ -199,7 +199,21 @@ const GourmetPizzaMenu = (props) => {
                 <h3 className="menu-list__item-title">Funghi e Cipolla</h3>
                 <p className="menu-list__item-subtitle">Mushroom and Onion</p>
                 <p className="section-content">
-                  {' '}
+                  <span>
+                    {' '}
+                    Rich, earthy cremini mushrooms and sweet red onions on San
+                    Marzano
+                  </span>
+                  <br></br>
+                  <span>
+                    {' '}
+                    sauce with mozzarella and Parmigiano Reggiano.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                   Rich, earthy cremini mushrooms and sweet red onions on San
                   Marzano sauce with mozzarella and Parmigiano Reggiano.
                   <span
@@ -228,7 +242,7 @@ const GourmetPizzaMenu = (props) => {
               <div className="menu-list__item-image">
                 <img
                   alt="Mediterranean Coast Pizza with olives and feta"
-                  src="https://images.pexels.com/photos/5953576/pexels-photo-5953576.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="/ai-generated/ai-generated-1765076472112-1500w.png"
                 />
                 <div className="menu-list__item-badge">
                   <svg
@@ -256,7 +270,20 @@ const GourmetPizzaMenu = (props) => {
                   Bright, Citrusy &amp; Vibrant
                 </p>
                 <p className="section-content">
-                  {' '}
+                  <span>
+                    Mozzarella, tangy feta cheese, mixed olives, and fresh
+                    tomatoes on San Marzano
+                  </span>
+                  <br></br>
+                  <span>
+                    {' '}
+                    sauce with a pinch of red pepper flakes.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                   Tangy feta cheese, mixed olives, and fresh tomatoes on San
                   Marzano sauce with a pinch of red pepper flakes.
                   <span
@@ -279,7 +306,7 @@ const GourmetPizzaMenu = (props) => {
               <div className="menu-list__item-image">
                 <img
                   alt="The Tuscan Gardener Pizza loaded with vegetables"
-                  src="https://images.pexels.com/photos/8251350/pexels-photo-8251350.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="/ai-generated/ai-generated-1765077227542-1500w.png"
                 />
                 <div className="menu-list__item-badge">
                   <svg
@@ -307,7 +334,21 @@ const GourmetPizzaMenu = (props) => {
                   Vegetable-Forward Excellence
                 </p>
                 <p className="section-content">
-                  {' '}
+                  <span>
+                    {' '}
+                    Roasted broccoli, cauliflower, peppers, and sautéed
+                    mushrooms on San
+                  </span>
+                  <br></br>
+                  <span>
+                    {' '}
+                    Marzano sauce with mozzarella and Parmigiano Reggiano.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                   Roasted broccoli, cauliflower, peppers, and sautéed mushrooms
                   on San Marzano sauce with mozzarella and Parmigiano Reggiano.
                   <span
@@ -330,7 +371,7 @@ const GourmetPizzaMenu = (props) => {
               <div className="menu-list__item-image">
                 <img
                   alt="Verde Fresco white pizza"
-                  src="https://images.pexels.com/photos/5953532/pexels-photo-5953532.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="/ai-generated/ai-generated-1765077563070-1500w.png"
                 />
                 <div className="menu-list__item-badge">
                   <svg
@@ -358,7 +399,23 @@ const GourmetPizzaMenu = (props) => {
                   Fresh Green White Pizza
                 </p>
                 <p className="section-content">
-                  {' '}
+                  <span>
+                    {' '}
+                    Garlic-infused olive oil with fresh parsley, lemon juice,
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span>
+                    mozzarella cheese and Parmigiano Reggiano. No tomato sauce.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                   Garlic-infused olive oil with fresh parsley, lemon juice, Fior
                   di Latte mozzarella, and Parmigiano Reggiano. No tomato sauce.
                   <span
@@ -379,7 +436,7 @@ const GourmetPizzaMenu = (props) => {
               <div className="menu-list__item-image">
                 <img
                   alt="Pepperoni Rustico Pizza"
-                  src="https://images.pexels.com/photos/29422006/pexels-photo-29422006.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="/ai-generated/ai-generated-1765077799309-1500w.png"
                 />
                 <div className="menu-list__item-badge">
                   <svg
@@ -407,7 +464,21 @@ const GourmetPizzaMenu = (props) => {
                   Spicy, Rich &amp; Bold
                 </p>
                 <p className="section-content">
-                  {' '}
+                  <span>
+                    {' '}
+                    High-quality pepperoni with sautéed mushrooms and roasted
+                    peppers, mozzarella cheese
+                  </span>
+                  <br></br>
+                  <span>
+                    {' '}
+                    finished with hot honey for gourmet contrast.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                   High-quality pepperoni with sautéed mushrooms and roasted
                   peppers, finished with hot honey or chili oil for gourmet
                   contrast.
@@ -431,7 +502,7 @@ const GourmetPizzaMenu = (props) => {
               <div className="menu-list__item-image">
                 <img
                   alt="Pizza Tricolore"
-                  src="https://images.pexels.com/photos/2918537/pexels-photo-2918537.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="/ai-generated/ai-generated-1765077951111-1500w.png"
                 />
                 <div className="menu-list__item-badge">
                   <svg
@@ -459,7 +530,20 @@ const GourmetPizzaMenu = (props) => {
                   The Perfect Italian Classic
                 </p>
                 <p className="section-content">
-                  {' '}
+                  <span>
+                    {' '}
+                    San Marzano tomatoes, mozzarella cheese, and extra virgin
+                  </span>
+                  <br></br>
+                  <span>
+                    {' '}
+                    olive oil. A celebration of Italy&apos;s finest ingredients.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                   San Marzano tomatoes, Fior di Latte mozzarella, and extra
                   virgin olive oil. A celebration of Italy&apos;s finest
                   ingredients.

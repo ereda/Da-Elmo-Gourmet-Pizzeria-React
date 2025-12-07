@@ -294,7 +294,27 @@ const Home = (props) => {
                 </div>
                 <h3 className="gallery-menu-item-title">Pizza Tricolore</h3>
                 <p className="gallery-menu-item-description">
-                  {' '}
+                  <span>
+                    {' '}
+                    The perfect Italian classic featuring mozzarella, San
+                    Marzano
+                  </span>
+                  <br></br>
+                  <span>
+                    {' '}
+                    tomatoes, and fresh basil leaves. The three colors of the
+                    Italian
+                  </span>
+                  <br></br>
+                  <span>
+                    {' '}
+                    flag in pure form.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                   The perfect Italian classic featuring Fior di Latte, San
                   Marzano tomatoes, and fresh basil leaves. The three colors of
                   the Italian flag in pure form.
