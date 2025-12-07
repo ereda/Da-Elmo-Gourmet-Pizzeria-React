@@ -654,7 +654,7 @@ const GourmetPizzaMenu = (props) => {
                 <div className="microgreen-story__timeline-image">
                   <img
                     alt="GMO-free pesticide-free certification"
-                    src="https://images.pexels.com/photos/4871111/pexels-photo-4871111.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="/ai-generated/ai-generated-1765134178406-1000w.png"
                   />
                 </div>
                 <h3 className="microgreen-story__timeline-title">
@@ -704,7 +704,7 @@ const GourmetPizzaMenu = (props) => {
                 <div className="microgreen-story__timeline-image">
                   <img
                     alt="Microgreens on bruschetta"
-                    src="https://images.pexels.com/photos/10893996/pexels-photo-10893996.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="/ai-generated/ai-generated-1765134329588-1000w.png"
                   />
                 </div>
                 <h3 className="microgreen-story__timeline-title">
@@ -754,7 +754,7 @@ const GourmetPizzaMenu = (props) => {
                 <div className="microgreen-story__timeline-image">
                   <img
                     alt="Final microgreen garnish"
-                    src="https://images.pexels.com/photos/12771066/pexels-photo-12771066.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="/ai-generated/ai-generated-1765134544945-1000w.png"
                   />
                 </div>
                 <h3 className="microgreen-story__timeline-title">
