@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -24,13 +25,13 @@ const Footer = (props) => {
           </div>
           <div className="footer-nav-section">
             <nav aria-label="Footer navigation" className="footer-nav">
-              <a href="#homepage">
-                <div className="footer-nav-link">
+              <Link to="/">
+                <div className="footer-footer-nav-link1 footer-nav-link">
                   <span>Homepage</span>
                 </div>
-              </a>
-              <a href="#gourmet-pizza-menu">
-                <div className="footer-nav-link">
+              </Link>
+              <Link to="/gourmet-pizza-menu">
+                <div className="footer-footer-nav-link2 footer-nav-link">
                   <span>
                     {' '}
                     Gourmet Pizza Menu
@@ -41,14 +42,14 @@ const Footer = (props) => {
                     />
                   </span>
                 </div>
-              </a>
-              <a href="#about-us">
-                <div className="footer-nav-link">
+              </Link>
+              <Link to="/about-us">
+                <div className="footer-footer-nav-link3 footer-nav-link">
                   <span>About Us</span>
                 </div>
-              </a>
-              <a href="#delivery-sustainability">
-                <div className="footer-nav-link">
+              </Link>
+              <Link to="/delivery-sustainability">
+                <div className="footer-footer-nav-link4 footer-nav-link">
                   <span>
                     {' '}
                     Delivery &amp; Sustainability
@@ -59,7 +60,7 @@ const Footer = (props) => {
                     />
                   </span>
                 </div>
-              </a>
+              </Link>
             </nav>
           </div>
           <div className="footer-contact-section">
@@ -110,7 +111,7 @@ const Footer = (props) => {
                     </g>
                   </svg>
                 </div>
-                <a href="mailto:info@microcrustpizza.com?subject=">
+                <a href="mailto:hello@daelmogourmetpizzeria.ca?subject=">
                   <div className="footer-contact-link section-content">
                     <span> hello@daelmogourmetpizzeria.ca</span>
                   </div>
