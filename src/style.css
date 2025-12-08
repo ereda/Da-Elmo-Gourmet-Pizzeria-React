@@ -2885,10 +2885,15 @@
 }
  
 .pizza-gallery__detail-section {
+  height: auto;
   padding: var(--spacing-lg);
+  overflow: visible;
   background: var(--color-backplate);
+  min-height: auto;
   border-left: 4px solid var(--color-surface);
+  flex-shrink: 0;
   border-radius: var(--border-radius-md);
+  padding-bottom: 32px;
 }
  
 .pizza-gallery__detail-label {

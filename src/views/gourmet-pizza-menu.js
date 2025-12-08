@@ -112,45 +112,6 @@ const GourmetPizzaMenu = (props) => {
               </div>
             </div>
           </div>
-          <button className="hero-carousel__nav hero-carousel__nav--prev">
-            <svg
-              width="24"
-              xmlns="http://www.w3.org/2000/svg"
-              height="24"
-              viewbox="0 0 24 24"
-            >
-              <path
-                d="m12 19l-7-7l7-7m7 7H5"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              ></path>
-            </svg>
-          </button>
-          <button className="hero-carousel__nav--next hero-carousel__nav">
-            <svg
-              width="24"
-              xmlns="http://www.w3.org/2000/svg"
-              height="24"
-              viewbox="0 0 24 24"
-            >
-              <path
-                d="M5 12h14m-7-7l7 7l-7 7"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              ></path>
-            </svg>
-          </button>
-          <div className="hero-carousel__indicators">
-            <button className="hero-carousel__indicator--active hero-carousel__indicator"></button>
-            <button className="hero-carousel__indicator"></button>
-            <button className="hero-carousel__indicator"></button>
-          </div>
         </div>
       </section>
       <section className="menu-list">
@@ -1128,8 +1089,8 @@ const GourmetPizzaMenu = (props) => {
             </p>
           </div>
           <div className="pizza-gallery__carousel">
-            <div className="pizza-gallery__carousel-track">
-              <div className="pizza-gallery__carousel-item pizza-gallery__carousel-item--active">
+            <div className="gourmet-pizza-menu-pizza-gallerycarousel-track pizza-gallery__carousel-track">
+              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item1 pizza-gallery__carousel-item pizza-gallery__carousel-item--active">
                 <div className="gourmet-pizza-menu-pizza-galleryitem-bg1 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
@@ -1142,8 +1103,8 @@ const GourmetPizzaMenu = (props) => {
                   <p className="pizza-gallery__item-subtitle">
                     Mushroom and Onion
                   </p>
-                  <div className="pizza-gallery__item-details">
-                    <div className="pizza-gallery__detail-section">
+                  <div className="gourmet-pizza-menu-pizza-galleryitem-details1 pizza-gallery__item-details">
+                    <div className="gourmet-pizza-menu-pizza-gallerydetail-section10 pizza-gallery__detail-section">
                       <h4 className="pizza-gallery__detail-label">
                         Foundation
                       </h4>
@@ -1160,7 +1121,7 @@ const GourmetPizzaMenu = (props) => {
                         />
                       </p>
                     </div>
-                    <div className="pizza-gallery__detail-section">
+                    <div className="gourmet-pizza-menu-pizza-gallerydetail-section11 pizza-gallery__detail-section">
                       <h4 className="pizza-gallery__detail-label">
                         Signature Garnish
                       </h4>
@@ -1175,7 +1136,7 @@ const GourmetPizzaMenu = (props) => {
                         />
                       </p>
                     </div>
-                    <div className="pizza-gallery__detail-section">
+                    <div className="gourmet-pizza-menu-pizza-gallerydetail-section12 pizza-gallery__detail-section">
                       <h4 className="pizza-gallery__detail-label">The Vibe</h4>
                       <p className="section-content">
                         {' '}
@@ -1191,7 +1152,7 @@ const GourmetPizzaMenu = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="pizza-gallery__carousel-item">
+              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item2 pizza-gallery__carousel-item">
                 <div className="gourmet-pizza-menu-pizza-galleryitem-bg2 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
@@ -1258,7 +1219,7 @@ const GourmetPizzaMenu = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="pizza-gallery__carousel-item">
+              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item3 pizza-gallery__carousel-item">
                 <div className="gourmet-pizza-menu-pizza-galleryitem-bg3 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
@@ -1283,7 +1244,16 @@ const GourmetPizzaMenu = (props) => {
                         Foundation
                       </h4>
                       <p className="section-content">
-                        {' '}
+                        <span>
+                          {' '}
+                          San Marzano tomato sauce, low-moisture mozzarella,
+                          roasted 
+                        </span>
+                        <span className="gourmet-pizza-menu-text31">
+                          seasonal vegetables (broccoli, cauliflower, peppers
+                          and Italian herbs), sautéed cremini mushrooms,
+                          Parmigiano Reggiano
+                        </span>
                         San Marzano tomato sauce, low-moisture mozzarella,
                         roasted seasonal vegetables (broccoli, cauliflower,
                         peppers at 400°F with olive oil and Italian herbs),
@@ -1326,7 +1296,7 @@ const GourmetPizzaMenu = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="pizza-gallery__carousel-item">
+              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item4 pizza-gallery__carousel-item">
                 <div className="gourmet-pizza-menu-pizza-galleryitem-bg4 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
@@ -1343,7 +1313,15 @@ const GourmetPizzaMenu = (props) => {
                         Foundation
                       </h4>
                       <p className="section-content">
-                        {' '}
+                        <span>
+                          {' '}
+                          No tomato sauce. Olive oil infused with minced fresh
+                          garlic, 
+                        </span>
+                        <span className="gourmet-pizza-menu-text34">
+                          finely chopped fresh parsley, touch of fresh lemon
+                          juice, fresh mozzarella, Parmigiano Reggiano
+                        </span>
                         No tomato sauce. Olive oil infused with minced fresh
                         garlic, finely chopped fresh parsley, touch of fresh
                         lemon juice, 6 oz Fior di Latte fresh mozzarella,
@@ -1386,7 +1364,7 @@ const GourmetPizzaMenu = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="pizza-gallery__carousel-item">
+              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item5 pizza-gallery__carousel-item">
                 <div className="gourmet-pizza-menu-pizza-galleryitem-bg5 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
@@ -1448,7 +1426,7 @@ const GourmetPizzaMenu = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="pizza-gallery__carousel-item">
+              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item6 pizza-gallery__carousel-item">
                 <div className="gourmet-pizza-menu-pizza-galleryitem-bg6 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
@@ -1471,7 +1449,23 @@ const GourmetPizzaMenu = (props) => {
                         Foundation
                       </h4>
                       <p className="section-content">
-                        {' '}
+                        <span>
+                          {' '}
+                          Lightly seasoned San Marzano tomato sauce, fresh 
+                        </span>
+                        <span className="gourmet-pizza-menu-text38">
+                          mozzarella, light drizzle of
+                        </span>
+                        <br></br>
+                        <span>
+                          {' '}
+                          extra virgin olive oil
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: ' ',
+                            }}
+                          />
+                        </span>
                         Lightly seasoned San Marzano tomato sauce, Fior di Latte
                         fresh mozzarella (sliced thin and patted dry), light
                         drizzle of extra virgin olive oil
@@ -1514,48 +1508,6 @@ const GourmetPizzaMenu = (props) => {
                   </div>
                 </div>
               </div>
-            </div>
-            <button className="pizza-gallery__nav--prev pizza-gallery__nav">
-              <svg
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewbox="0 0 24 24"
-              >
-                <path
-                  d="m12 19l-7-7l7-7m7 7H5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-              </svg>
-            </button>
-            <button className="pizza-gallery__nav pizza-gallery__nav--next">
-              <svg
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewbox="0 0 24 24"
-              >
-                <path
-                  d="M5 12h14m-7-7l7 7l-7 7"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-              </svg>
-            </button>
-            <div className="pizza-gallery__indicators">
-              <button className="pizza-gallery__indicator pizza-gallery__indicator--active"></button>
-              <button className="pizza-gallery__indicator"></button>
-              <button className="pizza-gallery__indicator"></button>
-              <button className="pizza-gallery__indicator"></button>
-              <button className="pizza-gallery__indicator"></button>
-              <button className="pizza-gallery__indicator"></button>
             </div>
           </div>
         </div>

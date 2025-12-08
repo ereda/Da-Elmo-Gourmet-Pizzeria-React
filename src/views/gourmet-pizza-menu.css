@@ -16,28 +16,118 @@
   background-image: url('https://images.pexels.com/photos/23017570/pexels-photo-23017570.jpeg?auto=compress&cs=tinysrgb&w=1500');
 }
  
+.gourmet-pizza-menu-pizza-gallerycarousel-track {
+  gap: var(--spacing-lg);
+  height: 767px;
+  display: flex;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+ 
+.gourmet-pizza-menu-pizza-gallerycarousel-item1 {
+  opacity: 1;
+  position: relative;
+  min-width: 100%;
+  visibility: visible;
+  flex-shrink: 0;
+}
+ 
 .gourmet-pizza-menu-pizza-galleryitem-bg1 {
   background-image: url('https://images.pexels.com/photos/14373594/pexels-photo-14373594.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-pizza-galleryitem-details1 {
+  min-height: auto;
+  padding-bottom: 24px;
+}
+ 
+.gourmet-pizza-menu-pizza-gallerydetail-section10 {
+  padding-bottom: 24px;
+}
+ 
+.gourmet-pizza-menu-pizza-gallerydetail-section11 {
+  padding-bottom: 24px;
+}
+ 
+.gourmet-pizza-menu-pizza-gallerydetail-section12 {
+  padding-bottom: 24px;
+}
+ 
+.gourmet-pizza-menu-pizza-gallerycarousel-item2 {
+  opacity: 1;
+  position: relative;
+  min-width: 100%;
+  visibility: visible;
+  flex-shrink: 0;
 }
  
 .gourmet-pizza-menu-pizza-galleryitem-bg2 {
   background-image: url('https://images.pexels.com/photos/5953576/pexels-photo-5953576.jpeg?auto=compress&cs=tinysrgb&w=1500');
 }
  
+.gourmet-pizza-menu-pizza-gallerycarousel-item3 {
+  opacity: 1;
+  position: relative;
+  min-width: 100%;
+  visibility: visible;
+  flex-shrink: 0;
+}
+ 
 .gourmet-pizza-menu-pizza-galleryitem-bg3 {
   background-image: url('https://images.pexels.com/photos/8251350/pexels-photo-8251350.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-text31 {
+  font-size: inherit;
+  letter-spacing: 0.02em;
+}
+ 
+.gourmet-pizza-menu-pizza-gallerycarousel-item4 {
+  opacity: 1;
+  position: relative;
+  min-width: 100%;
+  visibility: visible;
+  flex-shrink: 0;
 }
  
 .gourmet-pizza-menu-pizza-galleryitem-bg4 {
   background-image: url('https://images.pexels.com/photos/5953532/pexels-photo-5953532.jpeg?auto=compress&cs=tinysrgb&w=1500');
 }
  
+.gourmet-pizza-menu-text34 {
+  font-size: inherit;
+  letter-spacing: 0.02em;
+}
+ 
+.gourmet-pizza-menu-pizza-gallerycarousel-item5 {
+  opacity: 1;
+  position: relative;
+  min-width: 100%;
+  visibility: visible;
+  flex-shrink: 0;
+}
+ 
 .gourmet-pizza-menu-pizza-galleryitem-bg5 {
   background-image: url('https://images.pexels.com/photos/29422006/pexels-photo-29422006.jpeg?auto=compress&cs=tinysrgb&w=1500');
 }
  
+.gourmet-pizza-menu-pizza-gallerycarousel-item6 {
+  opacity: 1;
+  position: relative;
+  min-width: 100%;
+  visibility: visible;
+  flex-shrink: 0;
+}
+ 
 .gourmet-pizza-menu-pizza-galleryitem-bg6 {
   background-image: url('https://images.pexels.com/photos/2918537/pexels-photo-2918537.jpeg?auto=compress&cs=tinysrgb&w=1500');
+}
+ 
+.gourmet-pizza-menu-text38 {
+  font-size: inherit;
+  letter-spacing: 0.02em;
 }
  
 .gourmet-pizza-menu-container3 {
