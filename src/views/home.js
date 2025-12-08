@@ -952,66 +952,6 @@ const Home = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="features-sustainability-carousel-controls">
-                <button
-                  aria-label="Previous slide"
-                  className="features-sustainability-carousel-button features-sustainability-carousel-prev"
-                >
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="m12 19l-7-7l7-7m7 7H5"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                </button>
-                <button
-                  aria-label="Next slide"
-                  className="features-sustainability-carousel-next features-sustainability-carousel-button"
-                >
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M5 12h14m-7-7l7 7l-7 7"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                </button>
-              </div>
-              <div className="features-sustainability-carousel-indicators">
-                <button
-                  aria-label="Go to slide 1"
-                  className="features-sustainability-carousel-indicator features-sustainability-carousel-indicator-active"
-                ></button>
-                <button
-                  aria-label="Go to slide 2"
-                  className="features-sustainability-carousel-indicator"
-                ></button>
-                <button
-                  aria-label="Go to slide 3"
-                  className="features-sustainability-carousel-indicator"
-                ></button>
-                <button
-                  aria-label="Go to slide 4"
-                  className="features-sustainability-carousel-indicator"
-                ></button>
-              </div>
             </div>
           </div>
         </div>
