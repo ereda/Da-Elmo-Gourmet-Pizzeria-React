@@ -959,42 +959,6 @@ const GourmetPizzaMenu = (props) => {
                 </div>
               </div>
             </div>
-            <div className="packaging-delivery__carousel-controls">
-              <button className="packaging-delivery__carousel-btn packaging-delivery__carousel-btn--prev">
-                <svg
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="24"
-                  viewbox="0 0 24 24"
-                >
-                  <path
-                    d="m12 19l-7-7l7-7m7 7H5"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  ></path>
-                </svg>
-              </button>
-              <button className="packaging-delivery__carousel-btn--next packaging-delivery__carousel-btn">
-                <svg
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="24"
-                  viewbox="0 0 24 24"
-                >
-                  <path
-                    d="M5 12h14m-7-7l7 7l-7 7"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  ></path>
-                </svg>
-              </button>
-            </div>
           </div>
         </div>
       </section>
@@ -1102,9 +1066,21 @@ const GourmetPizzaMenu = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="craftsmanship__card-title">Fior di Latte</h3>
+              <h3 className="craftsmanship__card-title">Fresh Mozzarella</h3>
               <p className="section-content">
-                {' '}
+                <span>
+                  {' '}
+                  We use only high-quality fresh mozzarella for our white
+                </span>
+                <br></br>
+                <span>
+                  {' '}
+                  pizzas and Tricolore. It is carefully selected and shredded
+                </span>
+                <span className="gourmet-pizza-menu-text30">
+                   before baking to ensure perfect texture and authentic Italian
+                  flavor.
+                </span>
                 We use only high-quality Fior di Latte fresh mozzarella for our
                 white pizzas and Tricolore. Each piece is carefully selected,
                 sliced thin, and patted dry before baking to ensure perfect
