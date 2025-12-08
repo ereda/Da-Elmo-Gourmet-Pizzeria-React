@@ -16,11 +16,6 @@
   background-image: url('https://images.pexels.com/photos/23017570/pexels-photo-23017570.jpeg?auto=compress&cs=tinysrgb&w=1500');
 }
  
-.gourmet-pizza-menu-text30 {
-  font-size: inherit;
-  letter-spacing: 0.02em;
-}
- 
 .gourmet-pizza-menu-pizza-galleryitem-bg1 {
   background-image: url('https://images.pexels.com/photos/14373594/pexels-photo-14373594.jpeg?auto=compress&cs=tinysrgb&w=1500');
 }
@@ -45,18 +40,26 @@
   background-image: url('https://images.pexels.com/photos/2918537/pexels-photo-2918537.jpeg?auto=compress&cs=tinysrgb&w=1500');
 }
  
-.gourmet-pizza-menu-container2 {
-  display: none;
-}
- 
 .gourmet-pizza-menu-container3 {
-  display: contents;
+  display: none;
 }
  
 .gourmet-pizza-menu-container4 {
-  display: none;
+  display: contents;
 }
  
 .gourmet-pizza-menu-container5 {
+  display: none;
+}
+ 
+.gourmet-pizza-menu-container6 {
+  display: contents;
+}
+ 
+.gourmet-pizza-menu-container7 {
+  display: none;
+}
+ 
+.gourmet-pizza-menu-container8 {
   display: contents;
 }

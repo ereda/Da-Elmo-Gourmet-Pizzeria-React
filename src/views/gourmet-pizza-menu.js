@@ -1068,28 +1068,12 @@ const GourmetPizzaMenu = (props) => {
               </div>
               <h3 className="craftsmanship__card-title">Fresh Mozzarella</h3>
               <p className="section-content">
-                <span>
-                  {' '}
-                  We use only high-quality fresh mozzarella for our white
-                </span>
-                <br></br>
-                <span>
-                  {' '}
-                  pizzas and Tricolore. It is carefully selected and shredded
-                </span>
-                <span className="gourmet-pizza-menu-text30">
-                   before baking to ensure perfect texture and authentic Italian
-                  flavor.
-                </span>
-                We use only high-quality Fior di Latte fresh mozzarella for our
-                white pizzas and Tricolore. Each piece is carefully selected,
-                sliced thin, and patted dry before baking to ensure perfect
-                texture and authentic Italian flavor.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+                {' '}
+                We source a superior, low-moisture mozzarella that is carefully
+                selected for its rich, clean flavour and exceptional melting
+                characteristics. The result is a final texture that melts into a
+                golden, cohesive blanket without compromising the crispness of
+                our crust.
               </p>
             </div>
             <div className="craftsmanship__card">
@@ -1576,266 +1560,294 @@ const GourmetPizzaMenu = (props) => {
           </div>
         </div>
       </section>
-      <section className="wine-pairing">
-        <div className="wine-pairing__wrapper">
-          <div className="wine-pairing__header">
-            <h2 className="section-title">Curated Wine Pairings</h2>
-            <p className="section-subtitle">
-              {' '}
-              Elevate your gourmet experience with perfectly matched wines
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-          </div>
-          <div className="wine-pairing__carousel">
-            <div className="wine-pairing__carousel-track">
-              <div className="wine-pairing__card wine-pairing__card--active">
-                <div className="wine-pairing__card-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewbox="0 0 24 24"
-                  >
-                    <path
-                      d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
+      <div>
+        <section className="wine-pairing">
+          <div className="wine-pairing__wrapper">
+            <div className="wine-pairing__header">
+              <h2 className="section-title">Curated Wine Pairings</h2>
+              <p className="section-subtitle">
+                {' '}
+                Elevate your gourmet experience with perfectly matched wines
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </p>
+            </div>
+            <div className="wine-pairing__carousel">
+              <div className="gourmet-pizza-menu-wine-pairing__carousel-track1">
+                <div className="wine-pairing__card">
+                  <div className="wine-pairing__card-icon">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 className="wine-pairing__card-title">Funghi e Cipolla</h3>
+                  <p className="wine-pairing__card-pizza">Mushroom and Onion</p>
+                  <div className="wine-pairing__divider"></div>
+                  <p className="section-content">
+                    {' '}
+                    Pairs beautifully with the subtle, earthy complexity of a
+                    Pinot Noir or the savory, herbaceous notes of a Cabernet
+                    Franc. Both enhance the umami richness.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </p>
                 </div>
-                <h3 className="wine-pairing__card-title">Funghi e Cipolla</h3>
-                <p className="wine-pairing__card-pizza">Mushroom and Onion</p>
-                <div className="wine-pairing__divider"></div>
-                <p className="section-content">
-                  {' '}
-                  Pairs beautifully with the subtle, earthy complexity of a
-                  Pinot Noir or the savory, herbaceous notes of a Cabernet
-                  Franc. Both enhance the umami richness.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-              </div>
-              <div className="wine-pairing__card">
-                <div className="wine-pairing__card-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewbox="0 0 24 24"
-                  >
-                    <path
-                      d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
+                <div className="wine-pairing__card">
+                  <div className="wine-pairing__card-icon">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 className="wine-pairing__card-title">
+                    Mediterranean Coast
+                  </h3>
+                  <p className="wine-pairing__card-pizza">Feta &amp; Olives</p>
+                  <div className="wine-pairing__divider"></div>
+                  <p className="section-content">
+                    {' '}
+                    Complements the crisp, fruity acidity of a Pinot Grigio or a
+                    bright, herbal Sauvignon Blanc for a refreshing palate
+                    cleanse with Mediterranean vibrancy.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </p>
                 </div>
-                <h3 className="wine-pairing__card-title">
-                  Mediterranean Coast
-                </h3>
-                <p className="wine-pairing__card-pizza">Feta &amp; Olives</p>
-                <div className="wine-pairing__divider"></div>
-                <p className="section-content">
-                  {' '}
-                  Complements the crisp, fruity acidity of a Pinot Grigio or a
-                  bright, herbal Sauvignon Blanc for a refreshing palate cleanse
-                  with Mediterranean vibrancy.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-              </div>
-              <div className="wine-pairing__card">
-                <div className="wine-pairing__card-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewbox="0 0 24 24"
-                  >
-                    <path
-                      d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
+                <div className="wine-pairing__card">
+                  <div className="wine-pairing__card-icon">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 className="wine-pairing__card-title">
+                    The Tuscan Gardener
+                  </h3>
+                  <p className="wine-pairing__card-pizza">Roasted Vegetables</p>
+                  <div className="wine-pairing__divider"></div>
+                  <p className="section-content">
+                    {' '}
+                    Pairs beautifully with the bright acidity and herbaceous
+                    notes of a Sauvignon Blanc or a lighter, earthy Pinot Noir
+                    that won&amp;apos;t overpower the vegetables.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </p>
                 </div>
-                <h3 className="wine-pairing__card-title">
-                  The Tuscan Gardener
-                </h3>
-                <p className="wine-pairing__card-pizza">Roasted Vegetables</p>
-                <div className="wine-pairing__divider"></div>
-                <p className="section-content">
-                  {' '}
-                  Pairs beautifully with the bright acidity and herbaceous notes
-                  of a Sauvignon Blanc or a lighter, earthy Pinot Noir that
-                  won&apos;t overpower the vegetables.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-              </div>
-              <div className="wine-pairing__card">
-                <div className="wine-pairing__card-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewbox="0 0 24 24"
-                  >
-                    <path
-                      d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
+                <div className="wine-pairing__card">
+                  <div className="wine-pairing__card-icon">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 className="wine-pairing__card-title">Verde Fresco</h3>
+                  <p className="wine-pairing__card-pizza">
+                    White Pizza with Garlic
+                  </p>
+                  <div className="wine-pairing__divider"></div>
+                  <p className="section-content">
+                    {' '}
+                    Pairs well with a crisp, unoaked Chardonnay that complements
+                    the creamy mozzarella. A light-bodied Pinot Noir also
+                    balances the garlic and oil perfectly.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </p>
                 </div>
-                <h3 className="wine-pairing__card-title">Verde Fresco</h3>
-                <p className="wine-pairing__card-pizza">
-                  White Pizza with Garlic
-                </p>
-                <div className="wine-pairing__divider"></div>
-                <p className="section-content">
-                  {' '}
-                  Pairs well with a crisp, unoaked Chardonnay that complements
-                  the creamy mozzarella. A light-bodied Pinot Noir also balances
-                  the garlic and oil perfectly.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-              </div>
-              <div className="wine-pairing__card">
-                <div className="wine-pairing__card-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewbox="0 0 24 24"
-                  >
-                    <path
-                      d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
+                <div className="wine-pairing__card">
+                  <div className="wine-pairing__card-icon">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 className="wine-pairing__card-title">
+                    Pepperoni Rustico
+                  </h3>
+                  <p className="wine-pairing__card-pizza">Spicy &amp; Bold</p>
+                  <div className="wine-pairing__divider"></div>
+                  <p className="section-content">
+                    {' '}
+                    Pairs perfectly with Barbera, the quintessential pizza wine
+                    with high acidity. A rich, fruity Zinfandel also holds up to
+                    the bold, spicy flavors beautifully.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </p>
                 </div>
-                <h3 className="wine-pairing__card-title">Pepperoni Rustico</h3>
-                <p className="wine-pairing__card-pizza">Spicy &amp; Bold</p>
-                <div className="wine-pairing__divider"></div>
-                <p className="section-content">
-                  {' '}
-                  Pairs perfectly with Barbera, the quintessential pizza wine
-                  with high acidity. A rich, fruity Zinfandel also holds up to
-                  the bold, spicy flavors beautifully.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-              </div>
-              <div className="wine-pairing__card">
-                <div className="wine-pairing__card-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewbox="0 0 24 24"
-                  >
-                    <path
-                      d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
+                <div className="wine-pairing__card">
+                  <div className="wine-pairing__card-icon">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 className="wine-pairing__card-title">Pizza Tricolore</h3>
+                  <p className="wine-pairing__card-pizza">Classic Italian</p>
+                  <div className="wine-pairing__divider"></div>
+                  <p className="section-content">
+                    {' '}
+                    The high acidity of Chianti Classico (Sangiovese) perfectly
+                    matches the San Marzano tomatoes. A crisp Pinot Grigio is a
+                    light alternative for delicate flavors.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </p>
                 </div>
-                <h3 className="wine-pairing__card-title">Pizza Tricolore</h3>
-                <p className="wine-pairing__card-pizza">Classic Italian</p>
-                <div className="wine-pairing__divider"></div>
-                <p className="section-content">
-                  {' '}
-                  The high acidity of Chianti Classico (Sangiovese) perfectly
-                  matches the San Marzano tomatoes. A crisp Pinot Grigio is a
-                  light alternative for delicate flavors.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
               </div>
             </div>
-            <div className="wine-pairing__carousel-controls">
-              <button className="wine-pairing__carousel-btn wine-pairing__carousel-btn--prev">
-                <svg
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="24"
-                  viewbox="0 0 24 24"
-                >
-                  <path
-                    d="m12 19l-7-7l7-7m7 7H5"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  ></path>
-                </svg>
-              </button>
-              <button className="wine-pairing__carousel-btn wine-pairing__carousel-btn--next">
-                <svg
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="24"
-                  viewbox="0 0 24 24"
-                >
-                  <path
-                    d="M5 12h14m-7-7l7 7l-7 7"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  ></path>
-                </svg>
-              </button>
-            </div>
           </div>
+        </section>
+      </div>
+      <div className="gourmet-pizza-menu-container3">
+        <div className="gourmet-pizza-menu-container4">
+          <Script
+            html={`<script defer data-name="wine-pairing-carousel">
+(function(){
+  ;(function () {
+    const track = document.getElementById("wineCarouselTrack")
+    const prevBtn = document.getElementById("wineCarouselPrev")
+    const nextBtn = document.getElementById("wineCarouselNext")
+
+    if (!track) {
+      const fallbackTrack = document.querySelector(
+        ".wine-pairing__carousel-track"
+      )
+      if (fallbackTrack) {
+        fallbackTrack.id = "wineCarouselTrack"
+      }
+    }
+
+    const carouselTrack =
+      document.getElementById("wineCarouselTrack") ||
+      document.querySelector(".wine-pairing__carousel-track")
+    const prevButton =
+      prevBtn || document.querySelector(".wine-pairing__carousel-btn--prev")
+    const nextButton =
+      nextBtn || document.querySelector(".wine-pairing__carousel-btn--next")
+
+    if (!carouselTrack || !prevButton || !nextButton) return
+
+    const scrollAmount = 370
+
+    function updateButtonStates() {
+      const scrollLeft = carouselTrack.scrollLeft
+      const maxScroll = carouselTrack.scrollWidth - carouselTrack.clientWidth
+
+      prevButton.style.opacity = scrollLeft <= 0 ? "0.3" : "1"
+      prevButton.style.cursor = scrollLeft <= 0 ? "default" : "pointer"
+
+      nextButton.style.opacity = scrollLeft >= maxScroll - 1 ? "0.3" : "1"
+      nextButton.style.cursor =
+        scrollLeft >= maxScroll - 1 ? "default" : "pointer"
+    }
+
+    prevButton.addEventListener("click", function () {
+      carouselTrack.scrollBy({ left: -scrollAmount, behavior: "smooth" })
+    })
+
+    nextButton.addEventListener("click", function () {
+      carouselTrack.scrollBy({ left: scrollAmount, behavior: "smooth" })
+    })
+
+    carouselTrack.addEventListener("scroll", updateButtonStates)
+
+    updateButtonStates()
+  })()
+})()
+</script>`}
+          ></Script>
         </div>
-      </section>
+      </div>
       <section className="cta-order">
         <div className="cta-order__wrapper">
           <div className="cta-order__card">
@@ -1883,8 +1895,8 @@ const GourmetPizzaMenu = (props) => {
           </div>
         </div>
       </section>
-      <div className="gourmet-pizza-menu-container2">
-        <div className="gourmet-pizza-menu-container3">
+      <div className="gourmet-pizza-menu-container5">
+        <div className="gourmet-pizza-menu-container6">
           <Script
             html={`<style>
 @media (prefers-reduced-motion: reduce) {
@@ -1899,8 +1911,8 @@ const GourmetPizzaMenu = (props) => {
           ></Script>
         </div>
       </div>
-      <div className="gourmet-pizza-menu-container4">
-        <div className="gourmet-pizza-menu-container5">
+      <div className="gourmet-pizza-menu-container7">
+        <div className="gourmet-pizza-menu-container8">
           <Script
             html={`<script defer data-name="carousel-controls">
 (function(){

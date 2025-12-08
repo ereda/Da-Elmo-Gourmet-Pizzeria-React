@@ -5166,6 +5166,69 @@
   transform: scale(1.02);
 }
  
+.gourmet-pizza-menu-wine-pairing__carousel-track {
+  display: flex;
+  padding: var(--spacing-xl) 0;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+ 
+.gourmet-pizza-menu-wine-pairing__card {
+  flex: 0 0 100%;
+  opacity: 0.4;
+  padding: var(--spacing-2xl);
+  overflow: hidden;
+  position: relative;
+  transform: scale(0.9);
+  background: var(--color-surface);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+  border-radius: var(--border-radius-card);
+}
+ 
+.gourmet-pizza-menu-wine-pairing__card--active {
+  opacity: 1;
+  transform: scale(1);
+}
+ 
+.wine-pairing__carousel-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+  pointer-events: none;
+}
+ 
+.gourmet-pizza-menu-wine-pairing__carousel-track1 {
+  gap: var(--spacing-xl);
+  display: flex;
+  padding: var(--spacing-xl) 0;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-color: var(--color-primary) var(--color-surface-elevated);
+  scrollbar-width: thin;
+}
+ 
+.gourmet-pizza-menu-wine-pairing__carousel-track1::-webkit-scrollbar {
+  height: 8px;
+}
+ 
+.gourmet-pizza-menu-wine-pairing__carousel-track1::-webkit-scrollbar-track {
+  background: var(--color-surface-elevated);
+  border-radius: var(--border-radius-full);
+}
+ 
+.gourmet-pizza-menu-wine-pairing__carousel-track1::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: var(--border-radius-full);
+}
+ 
+.gourmet-pizza-menu-wine-pairing__carousel-track1::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary);
+}
+ 
+.wine-pairing__carousel-btn:active {
+  transform: scale(0.95);
+}
+ 
 .Headings {
   font-size: 2em;
   font-family: Playfair Display;
@@ -5912,6 +5975,9 @@
   }
   .nav-logo {
     height: 46px;
+  }
+  .gourmet-pizza-menu-wine-pairing__card {
+    padding: var(--spacing-xl);
   }
 }
  
