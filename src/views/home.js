@@ -267,7 +267,7 @@ const Home = (props) => {
             <div className="gallery-menu-item gallery-menu-item-large">
               <img
                 alt="Pizza Tricolore with fresh basil"
-                src="https://images.pexels.com/photos/5640042/pexels-photo-5640042.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="https://images.pexels.com/photos/6605220/pexels-photo-6605220.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 className="gallery-menu-image"
               />
               <div className="gallery-menu-item-overlay"></div>
@@ -329,7 +329,7 @@ const Home = (props) => {
             <div className="gallery-menu-item">
               <img
                 alt="Pepperoni Rustico with radish microgreens"
-                src="https://images.pexels.com/photos/5953531/pexels-photo-5953531.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="https://images.pexels.com/photos/5640042/pexels-photo-5640042.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 className="gallery-menu-image"
               />
               <div className="gallery-menu-item-overlay"></div>
@@ -371,7 +371,7 @@ const Home = (props) => {
             <div className="gallery-menu-item">
               <img
                 alt="Verde Fresco white pizza with arugula"
-                src="https://images.pexels.com/photos/6605220/pexels-photo-6605220.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="https://images.pexels.com/photos/5903394/pexels-photo-5903394.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 className="gallery-menu-image"
               />
               <div className="gallery-menu-item-overlay"></div>
@@ -453,7 +453,7 @@ const Home = (props) => {
             <div className="gallery-menu-item gallery-menu-item-large">
               <img
                 alt="Tuscan Gardener vegetable pizza with broccoli microgreens"
-                src="https://images.pexels.com/photos/5903394/pexels-photo-5903394.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="https://images.pexels.com/photos/5953531/pexels-photo-5953531.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 className="gallery-menu-image"
               />
               <div className="gallery-menu-item-overlay"></div>
@@ -1256,7 +1256,23 @@ const Home = (props) => {
                   </svg>
                 </div>
                 <p className="testimonials-reviews-card-quote">
-                  {' '}
+                  <span>
+                    {' '}
+                    The microgreen finish is absolutely genius! I&apos;ve never
+                    tasted pizza 
+                  </span>
+                  <span>
+                    this fresh and sophisticated delivered to my door. The
+                    Pizza 
+                  </span>
+                  <span>
+                    Tricolore is perfection.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                   The microgreen finish is absolutely genius! I&apos;ve never
                   tasted pizza this fresh and sophisticated delivered to my
                   door. The Pizza Tricolore is perfection.
@@ -1279,12 +1295,7 @@ const Home = (props) => {
                     </h4>
                     <p className="testimonials-reviews-card-author-location">
                       {' '}
-                      San Francisco, CA
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      Laval, Canada
                     </p>
                   </div>
                 </div>
@@ -1385,12 +1396,7 @@ const Home = (props) => {
                     </h4>
                     <p className="testimonials-reviews-card-author-location">
                       {' '}
-                      Los Angeles, CA
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      Montreal, Canada
                     </p>
                   </div>
                 </div>
@@ -1497,12 +1503,7 @@ const Home = (props) => {
                     </h4>
                     <p className="testimonials-reviews-card-author-location">
                       {' '}
-                      Chicago, IL
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      Laval, Canada
                     </p>
                   </div>
                 </div>
