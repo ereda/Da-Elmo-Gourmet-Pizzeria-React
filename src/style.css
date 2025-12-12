@@ -3723,7 +3723,11 @@
 .gallery-menu-track {
   gap: var(--spacing-xl);
   display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
   transition: transform 0.5s ease;
+  padding-bottom: var(--spacing-md);
+  scroll-behavior: smooth;
 }
  
 .gallery-menu-nav {
@@ -5232,6 +5236,25 @@
  
 .wine-pairing__carousel-btn:active {
   transform: scale(0.95);
+}
+ 
+.gallery-menu-track::-webkit-scrollbar {
+  height: 8px;
+}
+ 
+.gallery-menu-track::-webkit-scrollbar-track {
+  background: color-mix(in srgb, var(--color-neutral) 30%, transparent);
+  border-radius: var(--border-radius-full);
+}
+ 
+.gallery-menu-track::-webkit-scrollbar-thumb {
+  border: 2px solid color-mix(in srgb, var(--color-neutral) 30%, transparent);
+  background: var(--color-primary);
+  border-radius: var(--border-radius-full);
+}
+ 
+.gallery-menu-track::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--color-primary) 80%, var(--color-accent));
 }
  
 .Headings {

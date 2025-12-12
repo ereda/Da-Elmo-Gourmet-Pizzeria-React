@@ -59,7 +59,24 @@ const AboutUs = (props) => {
           <div className="about-story-content">
             <h2 className="section-title">Our Story</h2>
             <p className="section-content">
-              {' '}
+              <span>
+                {' '}
+                Da Elmo Gourmet Pizzeria was born from a singular vision: to
+                deliver a true 
+              </span>
+              <span>
+                gourmet pizza experience without compromise. We are a
+                delivery-first, 
+              </span>
+              <span>
+                artisan kitchen dedicated to perfecting every element of our
+                craft.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
               Microcrust Pizza was born from a singular vision: to deliver a
               true gourmet pizza experience without compromise. We are a
               delivery-first, artisan kitchen dedicated to perfecting every
@@ -71,7 +88,30 @@ const AboutUs = (props) => {
               />
             </p>
             <p className="section-content">
-              {' '}
+              <span>
+                {' '}
+                We eliminate the complexity of customization, instead focusing
+                our
+              </span>
+              <br></br>
+              <span>
+                {' '}
+                expertise on six distinct, chef-driven pizzas. Each recipe is
+              </span>
+              <br></br>
+              <span>
+                {' '}
+                meticulously developed, balancing premium ingredients with our
+                signature 
+              </span>
+              <span>
+                microgreen finishes.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
               We eliminate the complexity of customization, instead focusing our
               expertise on six distinct, chef-driven pizzas. Each recipe is
               meticulously developed, balancing premium ingredients with our
@@ -840,7 +880,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="Close-up of a homemade pizza topped with arugula, mozzarella, and tomatoes."
-                    src="https://images.pexels.com/photos/1435900/pexels-photo-1435900.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/1435900/pexels-photo-1435900.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -867,7 +907,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="Top view of a tasty seafood pizza garnished with fresh herbs and lemon slices."
-                    src="https://images.pexels.com/photos/2909821/pexels-photo-2909821.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/2909821/pexels-photo-2909821.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -894,7 +934,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="An overhead view of a homemade pizza being topped with fresh ingredients."
-                    src="https://images.pexels.com/photos/5907851/pexels-photo-5907851.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/5907851/pexels-photo-5907851.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -921,7 +961,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="Top view of a delicious Italian pizza with shrimp and zucchini, perfect for food photography."
-                    src="https://images.pexels.com/photos/5848258/pexels-photo-5848258.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/5848258/pexels-photo-5848258.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -948,7 +988,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="Close-up of a delicious pizza with pepperoni and cheese, accompanied by baking ingredients on a wooden board."
-                    src="https://images.pexels.com/photos/3761662/pexels-photo-3761662.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/3761662/pexels-photo-3761662.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -975,7 +1015,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="A rustic spread featuring pizza, cheese cubes, pomegranate, and olives on a wooden board."
-                    src="https://images.pexels.com/photos/6667194/pexels-photo-6667194.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/6667194/pexels-photo-6667194.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -998,72 +1038,6 @@ const AboutUs = (props) => {
                   </div>
                 </div>
               </div>
-            </div>
-            <button
-              aria-label="Previous slide"
-              className="gallery-menu-nav-prev gallery-menu-nav"
-            >
-              <svg
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewbox="0 0 24 24"
-              >
-                <path
-                  d="m5 12l7-7l7 7m-7 7V5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-              </svg>
-            </button>
-            <button
-              aria-label="Next slide"
-              className="gallery-menu-nav-next gallery-menu-nav"
-            >
-              <svg
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewbox="0 0 24 24"
-              >
-                <path
-                  d="m5 12l7-7l7 7m-7 7V5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-              </svg>
-            </button>
-            <div className="gallery-menu-indicators">
-              <button
-                aria-label="Go to slide 1"
-                className="gallery-menu-indicator gallery-menu-indicator-active"
-              ></button>
-              <button
-                aria-label="Go to slide 2"
-                className="gallery-menu-indicator"
-              ></button>
-              <button
-                aria-label="Go to slide 3"
-                className="gallery-menu-indicator"
-              ></button>
-              <button
-                aria-label="Go to slide 4"
-                className="gallery-menu-indicator"
-              ></button>
-              <button
-                aria-label="Go to slide 5"
-                className="gallery-menu-indicator"
-              ></button>
-              <button
-                aria-label="Go to slide 6"
-                className="gallery-menu-indicator"
-              ></button>
             </div>
           </div>
         </div>
