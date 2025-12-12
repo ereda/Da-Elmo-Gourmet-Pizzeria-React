@@ -1278,46 +1278,6 @@ const AboutUs = (props) => {
                 </p>
               </div>
             </div>
-            <button
-              aria-label="Previous"
-              className="features-sustainability-nav features-sustainability-nav-prev"
-            >
-              <svg
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewbox="0 0 24 24"
-              >
-                <path
-                  d="m5 12l7-7l7 7m-7 7V5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-              </svg>
-            </button>
-            <button
-              aria-label="Next"
-              className="features-sustainability-nav features-sustainability-nav-next"
-            >
-              <svg
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewbox="0 0 24 24"
-              >
-                <path
-                  d="m5 12l7-7l7 7m-7 7V5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-              </svg>
-            </button>
           </div>
         </div>
       </section>
