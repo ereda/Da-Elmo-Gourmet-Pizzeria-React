@@ -26,7 +26,7 @@ const GourmetPizzaMenu = (props) => {
         <div className="hero-carousel__wrapper">
           <div className="hero-carousel__slides">
             <div className="hero-carousel__slide--active hero-carousel__slide">
-              <div className="gourmet-pizza-menu-hero-carouselbg-layer1 hero-carousel__bg-layer"></div>
+              <div className="gourmet-pizza-menu-thq-hero-carouselbg-layer-elm1 hero-carousel__bg-layer"></div>
               <div className="hero-carousel__overlay"></div>
               <div className="hero-carousel__content-container">
                 <div className="hero-carousel__content">
@@ -58,7 +58,7 @@ const GourmetPizzaMenu = (props) => {
               </div>
             </div>
             <div className="hero-carousel__slide">
-              <div className="gourmet-pizza-menu-hero-carouselbg-layer2 hero-carousel__bg-layer"></div>
+              <div className="gourmet-pizza-menu-thq-hero-carouselbg-layer-elm2 hero-carousel__bg-layer"></div>
               <div className="hero-carousel__overlay"></div>
               <div className="hero-carousel__content-container">
                 <div className="hero-carousel__content">
@@ -84,7 +84,7 @@ const GourmetPizzaMenu = (props) => {
               </div>
             </div>
             <div className="hero-carousel__slide">
-              <div className="gourmet-pizza-menu-hero-carouselbg-layer3 hero-carousel__bg-layer"></div>
+              <div className="gourmet-pizza-menu-thq-hero-carouselbg-layer-elm3 hero-carousel__bg-layer"></div>
               <div className="hero-carousel__overlay"></div>
               <div className="hero-carousel__content-container">
                 <div className="hero-carousel__content">
@@ -1089,9 +1089,9 @@ const GourmetPizzaMenu = (props) => {
             </p>
           </div>
           <div className="pizza-gallery__carousel">
-            <div className="gourmet-pizza-menu-pizza-gallerycarousel-track pizza-gallery__carousel-track">
-              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item1 pizza-gallery__carousel-item pizza-gallery__carousel-item--active">
-                <div className="gourmet-pizza-menu-pizza-galleryitem-bg1 pizza-gallery__item-bg"></div>
+            <div className="gourmet-pizza-menu-thq-pizza-gallerycarousel-track-elm pizza-gallery__carousel-track">
+              <div className="gourmet-pizza-menu-thq-pizza-gallerycarousel-item-elm1 pizza-gallery__carousel-item pizza-gallery__carousel-item--active">
+                <div className="gourmet-pizza-menu-thq-pizza-galleryitem-bg-elm1 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
                   <div className="pizza-gallery__item-number">
@@ -1103,8 +1103,8 @@ const GourmetPizzaMenu = (props) => {
                   <p className="pizza-gallery__item-subtitle">
                     Mushroom and Onion
                   </p>
-                  <div className="gourmet-pizza-menu-pizza-galleryitem-details1 pizza-gallery__item-details">
-                    <div className="gourmet-pizza-menu-pizza-gallerydetail-section10 pizza-gallery__detail-section">
+                  <div className="gourmet-pizza-menu-thq-pizza-galleryitem-details-elm1 pizza-gallery__item-details">
+                    <div className="gourmet-pizza-menu-thq-pizza-gallerydetail-section-elm10 pizza-gallery__detail-section">
                       <h4 className="pizza-gallery__detail-label">
                         Foundation
                       </h4>
@@ -1121,7 +1121,7 @@ const GourmetPizzaMenu = (props) => {
                         />
                       </p>
                     </div>
-                    <div className="gourmet-pizza-menu-pizza-gallerydetail-section11 pizza-gallery__detail-section">
+                    <div className="gourmet-pizza-menu-thq-pizza-gallerydetail-section-elm11 pizza-gallery__detail-section">
                       <h4 className="pizza-gallery__detail-label">
                         Signature Garnish
                       </h4>
@@ -1136,7 +1136,7 @@ const GourmetPizzaMenu = (props) => {
                         />
                       </p>
                     </div>
-                    <div className="gourmet-pizza-menu-pizza-gallerydetail-section12 pizza-gallery__detail-section">
+                    <div className="gourmet-pizza-menu-thq-pizza-gallerydetail-section-elm12 pizza-gallery__detail-section">
                       <h4 className="pizza-gallery__detail-label">The Vibe</h4>
                       <p className="section-content">
                         {' '}
@@ -1152,8 +1152,8 @@ const GourmetPizzaMenu = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item2 pizza-gallery__carousel-item">
-                <div className="gourmet-pizza-menu-pizza-galleryitem-bg2 pizza-gallery__item-bg"></div>
+              <div className="gourmet-pizza-menu-thq-pizza-gallerycarousel-item-elm2 pizza-gallery__carousel-item">
+                <div className="gourmet-pizza-menu-thq-pizza-galleryitem-bg-elm2 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
                   <div className="pizza-gallery__item-number">
@@ -1219,8 +1219,8 @@ const GourmetPizzaMenu = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item3 pizza-gallery__carousel-item">
-                <div className="gourmet-pizza-menu-pizza-galleryitem-bg3 pizza-gallery__item-bg"></div>
+              <div className="gourmet-pizza-menu-thq-pizza-gallerycarousel-item-elm3 pizza-gallery__carousel-item">
+                <div className="gourmet-pizza-menu-thq-pizza-galleryitem-bg-elm3 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
                   <div className="pizza-gallery__item-number">
@@ -1296,8 +1296,8 @@ const GourmetPizzaMenu = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item4 pizza-gallery__carousel-item">
-                <div className="gourmet-pizza-menu-pizza-galleryitem-bg4 pizza-gallery__item-bg"></div>
+              <div className="gourmet-pizza-menu-thq-pizza-gallerycarousel-item-elm4 pizza-gallery__carousel-item">
+                <div className="gourmet-pizza-menu-thq-pizza-galleryitem-bg-elm4 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
                   <div className="pizza-gallery__item-number">
@@ -1364,8 +1364,8 @@ const GourmetPizzaMenu = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item5 pizza-gallery__carousel-item">
-                <div className="gourmet-pizza-menu-pizza-galleryitem-bg5 pizza-gallery__item-bg"></div>
+              <div className="gourmet-pizza-menu-thq-pizza-gallerycarousel-item-elm5 pizza-gallery__carousel-item">
+                <div className="gourmet-pizza-menu-thq-pizza-galleryitem-bg-elm5 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
                   <div className="pizza-gallery__item-number">
@@ -1426,8 +1426,8 @@ const GourmetPizzaMenu = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="gourmet-pizza-menu-pizza-gallerycarousel-item6 pizza-gallery__carousel-item">
-                <div className="gourmet-pizza-menu-pizza-galleryitem-bg6 pizza-gallery__item-bg"></div>
+              <div className="gourmet-pizza-menu-thq-pizza-gallerycarousel-item-elm6 pizza-gallery__carousel-item">
+                <div className="gourmet-pizza-menu-thq-pizza-galleryitem-bg-elm6 pizza-gallery__item-bg"></div>
                 <div className="pizza-gallery__item-overlay"></div>
                 <div className="pizza-gallery__item-content">
                   <div className="pizza-gallery__item-number">

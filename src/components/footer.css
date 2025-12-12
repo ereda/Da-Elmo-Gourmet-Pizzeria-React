@@ -2,7 +2,7 @@
   display: contents;
 }
  
-.footer-footer-logo-container {
+.footer-thq-footer-logo-container-elm {
   backdrop-filter: blur(5px);
 }
  
@@ -11,22 +11,22 @@
   object-fit: cover;
 }
  
-.footer-footer-nav-link1 {
+.footer-thq-footer-nav-link-elm1 {
   text-decoration: none;
 }
  
-.footer-footer-nav-link2 {
+.footer-thq-footer-nav-link-elm2 {
   text-decoration: none;
 }
  
-.footer-footer-nav-link3 {
+.footer-thq-footer-nav-link-elm3 {
   text-decoration: none;
 }
  
-.footer-footer-nav-link4 {
+.footer-thq-footer-nav-link-elm4 {
   text-decoration: none;
 }
  
-.footer-footer-social-link {
+.footer-thq-footer-social-link-elm {
   text-decoration: none;
 }

@@ -41,7 +41,7 @@ const DeliverySustainability = (props) => {
       <div className="hero-carousel-container">
         <div className="hero-carousel-track">
           <div className="hero-slide-active hero-slide">
-            <div className="delivery-sustainability-hero-parallax-bg1 hero-parallax-bg"></div>
+            <div className="delivery-sustainability-thq-hero-parallax-bg-elm1 hero-parallax-bg"></div>
             <div className="hero-overlay"></div>
             <div className="hero-content-wrapper">
               <div className="delivery---sustainability-hero-content">
@@ -71,7 +71,7 @@ const DeliverySustainability = (props) => {
             </div>
           </div>
           <div className="hero-slide">
-            <div className="delivery-sustainability-hero-parallax-bg2 hero-parallax-bg"></div>
+            <div className="delivery-sustainability-thq-hero-parallax-bg-elm2 hero-parallax-bg"></div>
             <div className="hero-overlay"></div>
             <div className="hero-content-wrapper">
               <div className="delivery---sustainability-hero-content">
@@ -97,7 +97,7 @@ const DeliverySustainability = (props) => {
             </div>
           </div>
           <div className="hero-slide">
-            <div className="delivery-sustainability-hero-parallax-bg3 hero-parallax-bg"></div>
+            <div className="delivery-sustainability-thq-hero-parallax-bg-elm3 hero-parallax-bg"></div>
             <div className="hero-overlay"></div>
             <div className="hero-content-wrapper">
               <div className="delivery---sustainability-hero-content">

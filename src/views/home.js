@@ -398,7 +398,20 @@ const Home = (props) => {
                 </div>
                 <h3 className="gallery-menu-item-title">Verde Fresco</h3>
                 <p className="gallery-menu-item-description">
-                  {' '}
+                  <span>
+                    {' '}
+                    Our white pizza with garlic-herb oil, mozzarella, fresh
+                    parsley, 
+                  </span>
+                  <span>
+                    and lemon. Finished with Parmigiano Reggiano and peppery
+                    baby arugula.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                   Our white pizza with garlic-herb oil, Fior di Latte, fresh
                   parsley, and lemon. Finished with peppery baby arugula.
                   <span

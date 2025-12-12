@@ -30,23 +30,23 @@ const Navigation = (props) => {
         </div>
       </div>
       <nav className="navigation">
-        <div className="navigation-navigation-container navigation-container">
+        <div className="navigation-thq-navigation-container-elm navigation-container">
           <a href="/">
             <div
               aria-label="Microcrust Pizza Homepage"
               className="navigation-logo"
             >
               <div className="nav-logo-container">
-                <div className="navigation-nav-logo-icon nav-logo-icon">
+                <div className="navigation-thq-nav-logo-icon-elm nav-logo-icon">
                   <img
                     alt="Gourmet pizza delivery - Chef-perfected artisan pizzas with fresh microgreen garnish"
                     src="/elmo-pizzeria-no-padding-200w.jpg"
                     width="180"
                     height="60"
-                    className="navigation-nav-logo nav-logo"
+                    className="navigation-thq-nav-logo-elm nav-logo"
                   />
                 </div>
-                <div className="navigation-nav-logo-text nav-logo-text">
+                <div className="navigation-thq-nav-logo-text-elm nav-logo-text">
                   <div className="nav-logo-brand">
                     <span>Da Elmo</span>
                   </div>
@@ -60,28 +60,28 @@ const Navigation = (props) => {
           <ul className="navigation-links">
             <li className="navigation-link-item">
               <Link to="/">
-                <div className="navigation-navigation-link1 navigation-link">
+                <div className="navigation-thq-navigation-link-elm1 navigation-link">
                   <span>Homepage</span>
                 </div>
               </Link>
             </li>
             <li className="navigation-link-item">
               <Link to="/gourmet-pizza-menu">
-                <div className="navigation-navigation-link2 navigation-link">
+                <div className="navigation-thq-navigation-link-elm2 navigation-link">
                   <span>Gourmet Pizza Menu</span>
                 </div>
               </Link>
             </li>
             <li className="navigation-link-item">
               <Link to="/about-us">
-                <div className="navigation-navigation-link3 navigation-link">
+                <div className="navigation-thq-navigation-link-elm3 navigation-link">
                   <span>About Us</span>
                 </div>
               </Link>
             </li>
             <li className="navigation-link-item">
               <Link to="/delivery-sustainability">
-                <div className="navigation-navigation-link4 navigation-link">
+                <div className="navigation-thq-navigation-link-elm4 navigation-link">
                   <span>
                     {' '}
                     Delivery &amp; Sustainability
@@ -105,7 +105,7 @@ const Navigation = (props) => {
               xmlns="http://www.w3.org/2000/svg"
               height="24"
               viewBox="0 0 24 24"
-              className="navigation-navigation-toggle-icon"
+              className="navigation-thq-navigation-toggle-icon-elm"
             >
               <path
                 d="M4 5h16M4 12h16M4 19h16"
@@ -139,7 +139,7 @@ const Navigation = (props) => {
                 xmlns="http://www.w3.org/2000/svg"
                 height="24"
                 viewBox="0 0 24 24"
-                className="navigation-navigation-close-icon"
+                className="navigation-thq-navigation-close-icon-elm"
               >
                 <path
                   d="M18 6L6 18M6 6l12 12"

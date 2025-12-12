@@ -10,6 +10,7 @@
     "react-helmet": "^6.1.0",
     "dangerous-html": "0.1.13",
     "prop-types": "15.7.2",
+    "@teleporthq/react-components": "latest",
     "next": "^12.1.10"
   },
   "scripts": {

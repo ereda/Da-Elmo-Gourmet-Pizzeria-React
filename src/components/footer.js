@@ -12,7 +12,7 @@ const Footer = (props) => {
         <div className="footer-decorative-overlay"></div>
         <div className="footer-content-wrapper">
           <div className="footer-brand-section">
-            <div className="footer-footer-logo-container footer-logo-container">
+            <div className="footer-thq-footer-logo-container-elm footer-logo-container">
               <img
                 alt={props.imageAlt4}
                 src={props.imageSrc4}
@@ -26,12 +26,12 @@ const Footer = (props) => {
           <div className="footer-nav-section">
             <nav aria-label="Footer navigation" className="footer-nav">
               <Link to="/">
-                <div className="footer-footer-nav-link1 footer-nav-link">
+                <div className="footer-thq-footer-nav-link-elm1 footer-nav-link">
                   <span>Homepage</span>
                 </div>
               </Link>
               <Link to="/gourmet-pizza-menu">
-                <div className="footer-footer-nav-link2 footer-nav-link">
+                <div className="footer-thq-footer-nav-link-elm2 footer-nav-link">
                   <span>
                     {' '}
                     Gourmet Pizza Menu
@@ -44,12 +44,12 @@ const Footer = (props) => {
                 </div>
               </Link>
               <Link to="/about-us">
-                <div className="footer-footer-nav-link3 footer-nav-link">
+                <div className="footer-thq-footer-nav-link-elm3 footer-nav-link">
                   <span>About Us</span>
                 </div>
               </Link>
               <Link to="/delivery-sustainability">
-                <div className="footer-footer-nav-link4 footer-nav-link">
+                <div className="footer-thq-footer-nav-link-elm4 footer-nav-link">
                   <span>
                     {' '}
                     Delivery &amp; Sustainability
@@ -143,7 +143,7 @@ const Footer = (props) => {
               >
                 <div
                   aria-label="Follow us on Instagram"
-                  className="footer-footer-social-link footer-social-link"
+                  className="footer-thq-footer-social-link-elm footer-social-link"
                 >
                   <svg
                     width="24"
