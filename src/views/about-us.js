@@ -1283,9 +1283,23 @@ const AboutUs = (props) => {
       </section>
       <section className="team-section">
         <div className="team-container">
-          <h2 className="section-title">The Culinary Team</h2>
+          <h2 className="section-title">The Head of the Kitchen</h2>
           <p className="section-subtitle">
-            {' '}
+            <span>
+              {' '}
+              Meet the Executive Chef and Owner behind every perfectly crafted
+              pizza, from dough to
+            </span>
+            <br></br>
+            <span>
+              {' '}
+              microgreen finish.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
             Meet the artisans behind every perfectly crafted pizza, from dough
             to microgreen finish.
             <span
