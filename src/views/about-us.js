@@ -880,7 +880,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="Close-up of a homemade pizza topped with arugula, mozzarella, and tomatoes."
-                    src="https://images.pexels.com/photos/1435900/pexels-photo-1435900.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                    src="/funghi%20e%20cipolla-1400w.png"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -907,7 +907,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="Top view of a tasty seafood pizza garnished with fresh herbs and lemon slices."
-                    src="https://images.pexels.com/photos/2909821/pexels-photo-2909821.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                    src="/mediterranean%20coast-1400w.png"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -934,7 +934,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="An overhead view of a homemade pizza being topped with fresh ingredients."
-                    src="https://images.pexels.com/photos/5907851/pexels-photo-5907851.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                    src="/the%20tuscan%20gardener-1400w.png"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -961,7 +961,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="Top view of a delicious Italian pizza with shrimp and zucchini, perfect for food photography."
-                    src="https://images.pexels.com/photos/5848258/pexels-photo-5848258.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                    src="/verde%20fresco-1400w.png"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -988,7 +988,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="Close-up of a delicious pizza with pepperoni and cheese, accompanied by baking ingredients on a wooden board."
-                    src="https://images.pexels.com/photos/3761662/pexels-photo-3761662.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                    src="/pepperoni%20rustico-1400w.png"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -1015,7 +1015,7 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-image-wrapper">
                   <img
                     alt="A rustic spread featuring pizza, cheese cubes, pomegranate, and olives on a wooden board."
-                    src="https://images.pexels.com/photos/6667194/pexels-photo-6667194.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                    src="/ai-generated/ai-generated-1765523778987-1400w.png"
                     className="about-us-gallery-menu-image"
                   />
                   <div className="gallery-menu-overlay"></div>
@@ -1345,190 +1345,24 @@ const AboutUs = (props) => {
                   />
                 </div>
                 <div className="team-card-content">
-                  <h3 className="team-card-title">Executive Chef Marco</h3>
+                  <h3 className="team-card-title">Executive Chef Elmo</h3>
                   <p className="team-card-role">
-                    Founder &amp; Head Pizza Craftsman
+                    Founder &amp; Pizza Craftsman
                   </p>
                   <p className="team-card-bio">
-                    {' '}
-                    With 15 years of experience in Italian cuisine, Chef Marco
-                    developed our signature avocado oil dough and curated our
-                    six-pizza menu. His philosophy: perfection through focus,
-                    not customization.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </p>
-                </div>
-              </div>
-              <div className="team-card">
-                <div className="team-card-image-wrapper">
-                  <img
-                    alt="Happy Asian woman at table with unrecognizable woman rubbing cheese on uncooked pizza in kitchen with various ingredients during cooking process"
-                    src="https://images.pexels.com/photos/5908224/pexels-photo-5908224.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="team-card-image"
-                  />
-                </div>
-                <div className="team-card-content">
-                  <h3 className="team-card-title">Chef Isabella</h3>
-                  <p className="team-card-role">
-                    Sauce &amp; Flavor Development
-                  </p>
-                  <p className="team-card-bio">
-                    {' '}
-                    Isabella specializes in our San Marzano tomato sauces and
-                    finishing techniques. Her expertise ensures every pizza has
-                    the perfect balance of acidity, sweetness, and umami depth.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </p>
-                </div>
-              </div>
-              <div className="team-card">
-                <div className="team-card-image-wrapper">
-                  <img
-                    alt="A chef adds fresh spinach to a pizza dough in a kitchen setting."
-                    src="https://images.pexels.com/photos/5903394/pexels-photo-5903394.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="team-card-image"
-                  />
-                </div>
-                <div className="team-card-content">
-                  <h3 className="team-card-title">Chef Antonio</h3>
-                  <p className="team-card-role">Topping Preparation Master</p>
-                  <p className="team-card-bio">
-                    {' '}
-                    Antonio oversees all vegetable roasting, mushroom sautéing,
-                    and ingredient prep. His meticulous attention to moisture
-                    control and seasoning elevates every topping to perfection.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </p>
-                </div>
-              </div>
-              <div className="team-card">
-                <div className="team-card-image-wrapper">
-                  <img
-                    alt="Close-up of a chef slicing a freshly baked artisan pizza in a kitchen setting."
-                    src="https://images.pexels.com/photos/5953532/pexels-photo-5953532.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="team-card-image"
-                  />
-                </div>
-                <div className="team-card-content">
-                  <h3 className="team-card-title">Chef Lucia</h3>
-                  <p className="team-card-role">Oven &amp; Quality Control</p>
-                  <p className="team-card-bio">
-                    {' '}
-                    Lucia is our oven maestro, ensuring every pizza reaches the
-                    perfect temperature and char. She performs final quality
-                    checks before any pizza leaves our kitchen.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </p>
-                </div>
-              </div>
-              <div className="team-card">
-                <div className="team-card-image-wrapper">
-                  <img
-                    alt="From above of crop anonymous female adding cheese from bowl on uncooked yummy pizza with tomato sauce  on wooden table in kitchen"
-                    src="https://images.pexels.com/photos/5907858/pexels-photo-5907858.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="team-card-image"
-                  />
-                </div>
-                <div className="team-card-content">
-                  <h3 className="team-card-title">Sofia</h3>
-                  <p className="team-card-role">Microgreen Specialist</p>
-                  <p className="team-card-bio">
-                    {' '}
-                    Sofia manages our microgreen partnerships and ensures every
-                    garnish meets our GMO-free, pesticide-free standards. She
-                    personally selects and packages every portion cup.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </p>
-                </div>
-              </div>
-              <div className="team-card">
-                <div className="team-card-image-wrapper">
-                  <img
-                    alt="A detailed view of hands adding toppings to a pizza in a kitchen setting."
-                    src="https://images.pexels.com/photos/5903447/pexels-photo-5903447.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="team-card-image"
-                  />
-                </div>
-                <div className="team-card-content">
-                  <h3 className="team-card-title">Chef Giovanni</h3>
-                  <p className="team-card-role">
-                    Dough &amp; Fermentation Expert
-                  </p>
-                  <p className="team-card-bio">
-                    {' '}
-                    Giovanni perfects our daily dough preparation and
-                    fermentation process. His understanding of timing and
-                    temperature creates the foundation for every exceptional
-                    pizza we deliver.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                    I am a Pizzaiolo with 10 years of experience, driven by a
+                    commitment to true artisanal quality. My entire six-pizza
+                    menu is a testament to this, defined by my self-developed,
+                    signature avocado oil dough. The philosophy here is simple:
+                    control the ingredients. I personally manage all kitchen and
+                    business operations, from the exacting process of roasting
+                    and seasoning our produce to growing our own microgreens.
+                    It&apos;s a complete farm-to-table mindset, ensuring
+                    unparalleled freshness in every bite.
                   </p>
                 </div>
               </div>
             </div>
-            <button
-              aria-label="Previous team member"
-              className="team-nav team-nav-prev"
-            >
-              <svg
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewbox="0 0 24 24"
-              >
-                <path
-                  d="m5 12l7-7l7 7m-7 7V5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-              </svg>
-            </button>
-            <button
-              aria-label="Next team member"
-              className="team-nav team-nav-next"
-            >
-              <svg
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewbox="0 0 24 24"
-              >
-                <path
-                  d="m5 12l7-7l7 7m-7 7V5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-              </svg>
-            </button>
           </div>
         </div>
       </section>
