@@ -207,7 +207,7 @@ const AboutUs = (props) => {
           <div className="about-story-image">
             <img
               alt="A cheerful chef presents delicious pizzas in a cozy pizzeria setting, showcasing culinary skills."
-              src="https://images.pexels.com/photos/6605418/pexels-photo-6605418.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              src="https://images.pexels.com/photos/5903447/pexels-photo-5903447.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
             />
           </div>
         </div>
