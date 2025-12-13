@@ -121,50 +121,6 @@ const DeliverySustainability = (props) => {
             </div>
           </div>
         </div>
-        <div className="hero-carousel-nav">
-          <button aria-label="Previous slide" className="hero-carousel-prev">
-            <svg
-              width="32"
-              xmlns="http://www.w3.org/2000/svg"
-              height="32"
-              viewbox="0 0 24 24"
-            >
-              <path
-                d="m18 15l-6-6l-6 6"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              ></path>
-            </svg>
-          </button>
-          <button aria-label="Next slide" className="hero-carousel-next">
-            <svg
-              width="32"
-              xmlns="http://www.w3.org/2000/svg"
-              height="32"
-              viewbox="0 0 24 24"
-            >
-              <path
-                d="m18 15l-6-6l-6 6"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              ></path>
-            </svg>
-          </button>
-        </div>
-        <div className="hero-carousel-dots">
-          <button
-            aria-label="Go to slide 1"
-            className="hero-dot-active hero-dot"
-          ></button>
-          <button aria-label="Go to slide 2" className="hero-dot"></button>
-          <button aria-label="Go to slide 3" className="hero-dot"></button>
-        </div>
       </div>
       <section className="delivery-process-section">
         <div className="delivery-process-header">
