@@ -183,7 +183,16 @@ const DeliverySustainability = (props) => {
             </summary>
             <div className="delivery-accordion-content">
               <p className="section-content">
-                {' '}
+                <span>
+                  {' '}
+                  Each pizza is handcrafted in our artisan kitchen using premium
+                  avocado 
+                </span>
+                <span className="delivery-sustainability-text11">
+                  oil dough and authentic San Marzano tomato sauce. We
+                  meticulously select and prepare every topping to ensure
+                  perfect flavor balance.
+                </span>
                 Each pizza is handcrafted in our artisan kitchen using premium
                 avocado oil dough and authentic San Marzano tomato sauce. Our
                 chefs meticulously select and prepare every topping to ensure
@@ -259,7 +268,7 @@ const DeliverySustainability = (props) => {
               </p>
               <img
                 alt="Fresh microgreens and gourmet ingredients"
-                src="https://images.pexels.com/photos/5848258/pexels-photo-5848258.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="/ai-generated/ai-generated-1765611440507-600w.png"
                 loading="lazy"
                 className="delivery-accordion-image"
               />
@@ -430,7 +439,15 @@ const DeliverySustainability = (props) => {
             </summary>
             <div className="delivery-accordion-content">
               <p className="section-content">
-                {' '}
+                <span>
+                  {' '}
+                  Your pizza arrives hot and ready. Simply scatter the vibrant 
+                </span>
+                <span className="delivery-sustainability-text13">
+                  microgreens from the compostable cup over your pizza for that
+                  final chef&apos;s touch. Experience the explosive freshness
+                  that defines Da Elmo Gourmet Pizzeria.
+                </span>
                 Your pizza arrives hot and ready. Simply scatter the vibrant
                 microgreens from the compostable cup over your pizza for that
                 final chef&apos;s touch. Experience the explosive freshness that
@@ -443,7 +460,7 @@ const DeliverySustainability = (props) => {
               </p>
               <img
                 alt="Gourmet pizza slice being lifted"
-                src="https://images.pexels.com/photos/3762075/pexels-photo-3762075.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="/ai-generated/ai-generated-1765593723632-600w.png"
                 loading="lazy"
                 className="delivery-accordion-image"
               />
@@ -473,7 +490,7 @@ const DeliverySustainability = (props) => {
                   <div className="sustainability-card-image">
                     <img
                       alt="Fresh microgreens in sustainable packaging"
-                      src="https://images.pexels.com/photos/4871111/pexels-photo-4871111.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      src="/ai-generated/ai-generated-1765593992635-1500w.png"
                       loading="lazy"
                     />
                     <div className="sustainability-card-badge">
@@ -566,7 +583,7 @@ const DeliverySustainability = (props) => {
                   <div className="sustainability-card-image">
                     <img
                       alt="Eco-friendly pizza delivery box"
-                      src="https://images.pexels.com/photos/5848270/pexels-photo-5848270.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      src="/ai-generated/ai-generated-1765594142205-1500w.png"
                       loading="lazy"
                     />
                     <div className="sustainability-card-badge">
@@ -819,66 +836,6 @@ const DeliverySustainability = (props) => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="sustainability-carousel-nav">
-              <button
-                aria-label="Previous item"
-                className="sustainability-carousel-prev"
-              >
-                <svg
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="24"
-                  viewbox="0 0 24 24"
-                >
-                  <path
-                    d="m18 15l-6-6l-6 6"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  ></path>
-                </svg>
-              </button>
-              <button
-                aria-label="Next item"
-                className="sustainability-carousel-next"
-              >
-                <svg
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="24"
-                  viewbox="0 0 24 24"
-                >
-                  <path
-                    d="m18 15l-6-6l-6 6"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-            <div className="sustainability-carousel-dots">
-              <button
-                aria-label="Go to item 1"
-                className="sustainability-dot sustainability-dot-active"
-              ></button>
-              <button
-                aria-label="Go to item 2"
-                className="sustainability-dot"
-              ></button>
-              <button
-                aria-label="Go to item 3"
-                className="sustainability-dot"
-              ></button>
-              <button
-                aria-label="Go to item 4"
-                className="sustainability-dot"
-              ></button>
             </div>
           </div>
         </div>
