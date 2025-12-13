@@ -1283,7 +1283,7 @@ const DeliverySustainability = (props) => {
             <div className="gallery-item">
               <img
                 alt="Verde Fresco white pizza with baby arugula"
-                src="https://images.pexels.com/photos/5848273/pexels-photo-5848273.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="/ai-generated/ai-generated-1765596235275-1500w.png"
                 loading="lazy"
               />
               <div className="gallery-overlay">
