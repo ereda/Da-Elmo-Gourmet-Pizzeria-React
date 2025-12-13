@@ -329,7 +329,7 @@ const Home = (props) => {
             <div className="gallery-menu-item">
               <img
                 alt="Pepperoni Rustico with radish microgreens"
-                src="https://images.pexels.com/photos/5640042/pexels-photo-5640042.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="/pepperoni3-1500w.jpg"
                 className="gallery-menu-image"
               />
               <div className="gallery-menu-item-overlay"></div>
@@ -371,7 +371,7 @@ const Home = (props) => {
             <div className="gallery-menu-item">
               <img
                 alt="Verde Fresco white pizza with arugula"
-                src="https://images.pexels.com/photos/5903394/pexels-photo-5903394.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="/ai-generated/ai-generated-1765657227595-1500w.png"
                 className="gallery-menu-image"
               />
               <div className="gallery-menu-item-overlay"></div>
@@ -425,7 +425,7 @@ const Home = (props) => {
             <div className="gallery-menu-item">
               <img
                 alt="Mediterranean Coast pizza with feta and olives"
-                src="https://images.pexels.com/photos/5902972/pexels-photo-5902972.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="/mediterranean-1500w.jpg"
                 className="gallery-menu-image"
               />
               <div className="gallery-menu-item-overlay"></div>
@@ -466,7 +466,7 @@ const Home = (props) => {
             <div className="gallery-menu-item gallery-menu-item-large">
               <img
                 alt="Tuscan Gardener vegetable pizza with broccoli microgreens"
-                src="https://images.pexels.com/photos/5953531/pexels-photo-5953531.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="/tuscan1-1500w.jpg"
                 className="gallery-menu-image"
               />
               <div className="gallery-menu-item-overlay"></div>
@@ -508,7 +508,7 @@ const Home = (props) => {
             <div className="gallery-menu-item">
               <img
                 alt="Funghi e Cipolla mushroom and onion pizza"
-                src="https://images.pexels.com/photos/6761051/pexels-photo-6761051.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="/funghi-1500w.jpg"
                 className="gallery-menu-image"
               />
               <div className="gallery-menu-item-overlay"></div>
