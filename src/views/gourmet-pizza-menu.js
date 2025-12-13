@@ -203,7 +203,7 @@ const GourmetPizzaMenu = (props) => {
               <div className="menu-list__item-image">
                 <img
                   alt="Mediterranean Coast Pizza with olives and feta"
-                  src="/ai-generated/ai-generated-1765076472112-1500w.png"
+                  src="/feta3-1500w.jpg"
                 />
                 <div className="menu-list__item-badge">
                   <svg
@@ -267,7 +267,7 @@ const GourmetPizzaMenu = (props) => {
               <div className="menu-list__item-image">
                 <img
                   alt="The Tuscan Gardener Pizza loaded with vegetables"
-                  src="/ai-generated/ai-generated-1765077227542-1500w.png"
+                  src="/tuscan2-1500w.jpg"
                 />
                 <div className="menu-list__item-badge">
                   <svg
@@ -397,7 +397,7 @@ const GourmetPizzaMenu = (props) => {
               <div className="menu-list__item-image">
                 <img
                   alt="Pepperoni Rustico Pizza"
-                  src="/ai-generated/ai-generated-1765077799309-1500w.png"
+                  src="/pepperoni2-1500w.jpg"
                 />
                 <div className="menu-list__item-badge">
                   <svg
