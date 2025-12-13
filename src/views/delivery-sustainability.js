@@ -1004,7 +1004,21 @@ const DeliverySustainability = (props) => {
             </div>
             <h3 className="microgreens-card-title">Freshness Guarantee</h3>
             <p className="section-content">
-              {' '}
+              <span>
+                {' '}
+                We guarantee your microgreens will arrive vibrant and fresh.
+              </span>
+              <span className="delivery-sustainability-text15">
+                 Our packaging system maintains optimal moisture and 
+              </span>
+              <span>
+                temperature throughout delivery.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
               We guarantee your microgreens will arrive vibrant and fresh, or
               we&apos;ll replace your order. Our packaging system maintains
               optimal moisture and temperature throughout delivery.
@@ -1114,7 +1128,7 @@ const DeliverySustainability = (props) => {
               <div className="menu-timeline-image">
                 <img
                   alt="Perfectly crafted pizza slice"
-                  src="https://images.pexels.com/photos/3762075/pexels-photo-3762075.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="https://images.pexels.com/photos/5903447/pexels-photo-5903447.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   loading="lazy"
                 />
               </div>
@@ -1196,7 +1210,7 @@ const DeliverySustainability = (props) => {
               <div className="menu-timeline-image">
                 <img
                   alt="Fresh microgreens garnish"
-                  src="https://images.pexels.com/photos/4871111/pexels-photo-4871111.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="/ai-generated/ai-generated-1765594884501-1500w.png"
                   loading="lazy"
                 />
               </div>
