@@ -615,7 +615,7 @@ const GourmetPizzaMenu = (props) => {
                 <div className="microgreen-story__timeline-image">
                   <img
                     alt="GMO-free pesticide-free certification"
-                    src="/ai-generated/ai-generated-1765134178406-1000w.png"
+                    src="/ai-generated/ai-generated-1765597400517-1000w.png"
                   />
                 </div>
                 <h3 className="microgreen-story__timeline-title">
