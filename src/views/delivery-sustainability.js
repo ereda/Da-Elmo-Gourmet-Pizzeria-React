@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
@@ -1264,7 +1265,7 @@ const DeliverySustainability = (props) => {
             <div className="gallery-item">
               <img
                 alt="Pepperoni Rustico with radish microgreens"
-                src="https://images.pexels.com/photos/3762075/pexels-photo-3762075.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="/ai-generated/ai-generated-1765596494514-1500w.png"
                 loading="lazy"
               />
               <div className="gallery-overlay">
@@ -1321,7 +1322,7 @@ const DeliverySustainability = (props) => {
             <div className="gallery-item">
               <img
                 alt="Tuscan Gardener with broccoli microgreens"
-                src="https://images.pexels.com/photos/2274787/pexels-photo-2274787.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                src="/ai-generated/ai-generated-1765596622157-1500w.png"
                 loading="lazy"
               />
               <div className="gallery-overlay">
@@ -1453,7 +1454,10 @@ const DeliverySustainability = (props) => {
                 </span>
               </div>
             </div>
-            <button className="btn-primary btn btn-lg">
+            <Link
+              to="/gourmet-pizza-menu"
+              className="delivery-sustainability-thq-btn-elm5 btn-primary btn btn-lg"
+            >
               {' '}
               View Full Menu &amp; Pairings
               <span
@@ -1461,7 +1465,7 @@ const DeliverySustainability = (props) => {
                   __html: ' ',
                 }}
               />
-            </button>
+            </Link>
           </div>
         </div>
       </section>
