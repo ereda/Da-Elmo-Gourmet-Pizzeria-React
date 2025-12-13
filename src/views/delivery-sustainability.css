@@ -29,23 +29,35 @@
   letter-spacing: 0.02em;
 }
  
+.delivery-sustainability-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.delivery-sustainability-thq-delivery-accordion-header-elm2 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
 .delivery-sustainability-text13 {
   font-size: inherit;
   letter-spacing: 0.02em;
 }
  
-.delivery-sustainability-container4 {
-  display: none;
-}
- 
 .delivery-sustainability-container5 {
-  display: contents;
+  display: none;
 }
  
 .delivery-sustainability-container6 {
-  display: none;
+  display: contents;
 }
  
 .delivery-sustainability-container7 {
+  display: none;
+}
+ 
+.delivery-sustainability-container8 {
   display: contents;
 }

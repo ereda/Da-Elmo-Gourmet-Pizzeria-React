@@ -230,13 +230,14 @@ const DeliverySustainability = (props) => {
                   ></path>
                 </svg>
               </div>
+              <div className="delivery-sustainability-container4">
+                <h3 className="delivery-accordion-title">
+                  Eco-Friendly Packaging
+                </h3>
+                <p className="delivery-accordion-meta">Step 2</p>
+              </div>
             </summary>
-            <div className="delivery-accordion-header">
-              <h3 className="delivery-accordion-title">
-                Eco-Friendly Packaging
-              </h3>
-              <p className="delivery-accordion-meta">Step 2</p>
-            </div>
+            <div className="delivery-sustainability-thq-delivery-accordion-header-elm2 delivery-accordion-header"></div>
             <svg
               width="24"
               xmlns="http://www.w3.org/2000/svg"
@@ -1450,8 +1451,8 @@ const DeliverySustainability = (props) => {
           </div>
         </div>
       </section>
-      <div className="delivery-sustainability-container4">
-        <div className="delivery-sustainability-container5">
+      <div className="delivery-sustainability-container5">
+        <div className="delivery-sustainability-container6">
           <Script
             html={`<style>
         @keyframes slideDown {from {opacity: 0;
@@ -1462,8 +1463,8 @@ transform: translateY(0);}}
           ></Script>
         </div>
       </div>
-      <div className="delivery-sustainability-container6">
-        <div className="delivery-sustainability-container7">
+      <div className="delivery-sustainability-container7">
+        <div className="delivery-sustainability-container8">
           <Script
             html={`<script defer data-name="delivery-sustainability-interactions">
 (function(){
