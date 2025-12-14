@@ -1845,12 +1845,22 @@ const GourmetPizzaMenu = (props) => {
                 />
               </p>
               <div className="cta-order__buttons">
-                <button className="btn-primary btn btn-xl">
+                <a
+                  href="https://www.ubereats.com/ca?msockid=1298bc78b6d86c021899a903b7b56de6"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="gourmet-pizza-menu-thq-btn-elm5 btn-primary btn btn-xl"
+                >
                   Order on Uber Eats
-                </button>
-                <button className="btn-secondary btn btn-xl">
+                </a>
+                <a
+                  href="https://www.doordash.com/?msockid=1298bc78b6d86c021899a903b7b56de6"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="gourmet-pizza-menu-thq-btn-elm6 btn-secondary btn btn-xl"
+                >
                   Order on DoorDash
-                </button>
+                </a>
               </div>
             </div>
             <div className="cta-order__decorative"></div>
