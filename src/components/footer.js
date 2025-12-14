@@ -130,8 +130,22 @@ const Footer = (props) => {
               />
             </p>
             <div className="footer-delivery-badges">
-              <span className="footer-delivery-badge">Uber Eats</span>
-              <span className="footer-delivery-badge">DoorDash</span>
+              <a
+                href="https://www.ubereats.com/ca?msockid=1298bc78b6d86c021899a903b7b56de6"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="footer-thq-footer-delivery-badge-elm1 footer-delivery-badge"
+              >
+                Uber Eats
+              </a>
+              <a
+                href="https://www.doordash.com/?msockid=1298bc78b6d86c021899a903b7b56de6"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="footer-thq-footer-delivery-badge-elm2 footer-delivery-badge"
+              >
+                DoorDash
+              </a>
             </div>
           </div>
           <div className="footer-social-section">

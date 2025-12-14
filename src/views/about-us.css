@@ -4,6 +4,14 @@
   min-height: 100vh;
 }
  
+.about-us-thq-btn-elm1 {
+  text-decoration: none;
+}
+ 
+.about-us-thq-btn-elm2 {
+  text-decoration: none;
+}
+ 
 .about-us-container2 {
   display: none;
 }

@@ -67,12 +67,22 @@ const Home = (props) => {
                   />
                 </p>
                 <div className="hero-main-cta">
-                  <button className="btn-primary btn btn-lg">
+                  <a
+                    href="https://www.ubereats.com/ca?msockid=1298bc78b6d86c021899a903b7b56de6"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-thq-btn-elm1 btn-primary btn btn-lg"
+                  >
                     Order on Uber Eats
-                  </button>
-                  <button className="btn-secondary btn btn-lg">
+                  </a>
+                  <a
+                    href="https://www.doordash.com/?msockid=1298bc78b6d86c021899a903b7b56de6"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-thq-btn-elm2 btn-secondary btn btn-lg"
+                  >
                     Order on DoorDash
-                  </button>
+                  </a>
                 </div>
               </div>
               <div className="hero-main-features">
@@ -227,9 +237,14 @@ const Home = (props) => {
                     </div>
                     <span className="cta-delivery-status">Available Now</span>
                   </div>
-                  <button className="btn-primary btn btn-xl">
+                  <a
+                    href="https://www.ubereats.com/ca?msockid=1298bc78b6d86c021899a903b7b56de6"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-thq-btn-elm3 btn-primary btn btn-xl"
+                  >
                     Start Your Order
-                  </button>
+                  </a>
                 </div>
                 <div className="cta-delivery-platform">
                   <div className="cta-delivery-platform-header">
@@ -238,9 +253,14 @@ const Home = (props) => {
                     </div>
                     <span className="cta-delivery-status">Available Now</span>
                   </div>
-                  <button className="btn-accent btn btn-xl">
+                  <a
+                    href="https://www.doordash.com/?msockid=1298bc78b6d86c021899a903b7b56de6"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-thq-btn-elm4 btn-accent btn btn-xl"
+                  >
                     Start Your Order
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

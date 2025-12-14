@@ -45,12 +45,22 @@ const AboutUs = (props) => {
             />
           </p>
           <div className="hero-cta-group">
-            <button className="btn-primary btn btn-lg">
+            <a
+              href="https://www.ubereats.com/ca?msockid=1298bc78b6d86c021899a903b7b56de6"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="about-us-thq-btn-elm1 btn-primary btn btn-lg"
+            >
               Order on Uber Eats
-            </button>
-            <button className="btn btn-outline btn-lg">
+            </a>
+            <a
+              href="https://www.doordash.com/?msockid=1298bc78b6d86c021899a903b7b56de6"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="about-us-thq-btn-elm2 btn btn-outline btn-lg"
+            >
               Order on DoorDash
-            </button>
+            </a>
           </div>
         </div>
       </section>
