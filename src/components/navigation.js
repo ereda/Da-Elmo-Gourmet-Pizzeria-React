@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import Script from 'dangerous-html/react'
 
@@ -7,9 +6,9 @@ import './navigation.css'
 
 const Navigation = (props) => {
   return (
-    <div className="navigation-container1">
-      <div className="navigation-container2">
-        <div className="navigation-container3">
+    <div className="navigation-container10">
+      <div className="navigation-container11">
+        <div className="navigation-container12">
           <Script
             html={`<style>
 @media (prefers-reduced-motion: reduce) {
@@ -59,40 +58,40 @@ const Navigation = (props) => {
           </a>
           <ul className="navigation-links">
             <li className="navigation-link-item">
-              <Link to="/">
-                <div className="navigation-thq-navigation-link-elm1 navigation-link">
-                  <span>Homepage</span>
+              <a href="index.html">
+                <div>
+                  <div className="thq-navigation-link-elm1 navigation-link">
+                    <span>Homepage</span>
+                  </div>
                 </div>
-              </Link>
+              </a>
             </li>
             <li className="navigation-link-item">
-              <Link to="/gourmet-pizza-menu">
-                <div className="navigation-thq-navigation-link-elm2 navigation-link">
-                  <span>Gourmet Pizza Menu</span>
+              <a href="gourmet-pizza-menu.html">
+                <div>
+                  <div className="thq-navigation-link-elm2 navigation-link">
+                    <span>Gourmet Pizza Menu</span>
+                  </div>
                 </div>
-              </Link>
+              </a>
             </li>
             <li className="navigation-link-item">
-              <Link to="/about-us">
-                <div className="navigation-thq-navigation-link-elm3 navigation-link">
-                  <span>About Us</span>
+              <a href="about-us.html">
+                <div>
+                  <div className="thq-navigation-link-elm3 navigation-link">
+                    <span>About Us</span>
+                  </div>
                 </div>
-              </Link>
+              </a>
             </li>
             <li className="navigation-link-item">
-              <Link to="/delivery-sustainability">
-                <div className="navigation-thq-navigation-link-elm4 navigation-link">
-                  <span>
-                    {' '}
-                    Delivery &amp; Sustainability
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
+              <a href="delivery-sustainability.html">
+                <div>
+                  <div className="thq-navigation-link-elm4 navigation-link">
+                    <span>Delivery &amp; Sustainability</span>
+                  </div>
                 </div>
-              </Link>
+              </a>
             </li>
           </ul>
           <button
@@ -192,8 +191,8 @@ const Navigation = (props) => {
           </ul>
         </div>
       </nav>
-      <div className="navigation-container4">
-        <div className="navigation-container5">
+      <div className="navigation-container17">
+        <div className="navigation-container18">
           <Script
             html={`<style>
         @keyframes navigationSlideIn {to {opacity: 1;
@@ -202,8 +201,8 @@ transform: translateY(0);}}
           ></Script>
         </div>
       </div>
-      <div className="navigation-container6">
-        <div className="navigation-container7">
+      <div className="navigation-container19">
+        <div className="navigation-container20">
           <Script
             html={`<script defer data-name="navigation-toggle">
 (function(){

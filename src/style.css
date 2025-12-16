@@ -5257,6 +5257,22 @@
   background: color-mix(in srgb, var(--color-primary) 80%, var(--color-accent));
 }
  
+.thq-navigation-link-elm1 {
+  text-decoration: none;
+}
+ 
+.thq-navigation-link-elm2 {
+  text-decoration: none;
+}
+ 
+.thq-navigation-link-elm3 {
+  text-decoration: none;
+}
+ 
+.thq-navigation-link-elm4 {
+  text-decoration: none;
+}
+ 
 .Headings {
   font-size: 2em;
   font-family: Playfair Display;
