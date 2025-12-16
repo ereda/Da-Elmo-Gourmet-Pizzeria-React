@@ -88,7 +88,7 @@ const Navigation = (props) => {
             <Link to="/delivery-sustainability">
               <li className="navigation-thq-navigation-link-item-elm4 navigation-link-item">
                 <div>
-                  <div className="thq-navigation-link-elm4 navigation-link">
+                  <div className="navigation-link thq-navigation-link-elm4">
                     <span>Delivery &amp; Sustainability</span>
                   </div>
                 </div>

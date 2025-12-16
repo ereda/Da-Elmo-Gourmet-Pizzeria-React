@@ -4,6 +4,10 @@
   min-height: 100vh;
 }
  
+.home-thq-hero-main-content-elm {
+  height: 1028px;
+}
+ 
 .home-thq-btn-elm1 {
   text-decoration: none;
 }

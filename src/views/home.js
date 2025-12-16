@@ -29,7 +29,7 @@ const Home = (props) => {
             />
             <div className="hero-main-overlay"></div>
           </div>
-          <div className="hero-main-content">
+          <div className="home-thq-hero-main-content-elm hero-main-content">
             <div className="hero-main-container">
               <div className="hero-main-feature">
                 <div className="hero-main-badge">
