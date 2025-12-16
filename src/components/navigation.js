@@ -154,9 +154,11 @@ const Navigation = (props) => {
           </div>
           <ul className="navigation-overlay-links">
             <li className="navigation-overlay-item">
-              <a href="/">
-                <div className="navigation-overlay-link">
-                  <span>Homepage</span>
+              <a href="index.html">
+                <div>
+                  <div className="navigation-overlay-link">
+                    <span>Homepage</span>
+                  </div>
                 </div>
               </a>
             </li>
@@ -164,16 +166,20 @@ const Navigation = (props) => {
               href="gourmet-pizza-menu.html"
               className="navigation-overlay-item"
             >
-              <a href="/menu">
-                <div className="navigation-overlay-link">
-                  <span>Gourmet Pizza Menu</span>
+              <a href="gourmet-pizza-menu.html">
+                <div>
+                  <div className="navigation-overlay-link">
+                    <span>Gourmet Pizza Menu</span>
+                  </div>
                 </div>
               </a>
             </li>
             <li href="about-us.html" className="navigation-overlay-item">
-              <a href="/about">
-                <div className="navigation-overlay-link">
-                  <span>About Us</span>
+              <a href="about-us.html">
+                <div>
+                  <div className="navigation-overlay-link">
+                    <span>About Us</span>
+                  </div>
                 </div>
               </a>
             </li>
@@ -181,25 +187,19 @@ const Navigation = (props) => {
               href="delivery-sustainability.html"
               className="navigation-overlay-item"
             >
-              <a href="/delivery">
-                <div className="navigation-overlay-link">
-                  <span>
-                    {' '}
-                    Delivery &amp; Sustainability
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
+              <a href="delivery-sustainability.html">
+                <div>
+                  <div className="navigation-overlay-link">
+                    <span>Delivery &amp; Sustainability</span>
+                  </div>
                 </div>
               </a>
             </li>
           </ul>
         </div>
       </nav>
-      <div className="navigation-container17">
-        <div className="navigation-container18">
+      <div className="navigation-container21">
+        <div className="navigation-container22">
           <Script
             html={`<style>
         @keyframes navigationSlideIn {to {opacity: 1;
@@ -208,8 +208,8 @@ transform: translateY(0);}}
           ></Script>
         </div>
       </div>
-      <div className="navigation-container19">
-        <div className="navigation-container20">
+      <div className="navigation-container23">
+        <div className="navigation-container24">
           <Script
             html={`<script defer data-name="navigation-toggle">
 (function(){
