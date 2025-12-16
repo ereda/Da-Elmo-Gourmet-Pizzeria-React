@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Script from 'dangerous-html/react'
 
@@ -57,42 +58,42 @@ const Navigation = (props) => {
             </div>
           </a>
           <ul className="navigation-links">
-            <li className="navigation-link-item">
-              <a href="index.html">
+            <Link to="/">
+              <li className="navigation-thq-navigation-link-item-elm1 navigation-link-item">
                 <div>
                   <div className="thq-navigation-link-elm1 navigation-link">
                     <span>Homepage</span>
                   </div>
                 </div>
-              </a>
-            </li>
-            <li className="navigation-link-item">
-              <a href="gourmet-pizza-menu.html">
+              </li>
+            </Link>
+            <Link to="/gourmet-pizza-menu">
+              <li className="navigation-thq-navigation-link-item-elm2 navigation-link-item">
                 <div>
                   <div className="thq-navigation-link-elm2 navigation-link">
                     <span>Gourmet Pizza Menu</span>
                   </div>
                 </div>
-              </a>
-            </li>
-            <li className="navigation-link-item">
-              <a href="about-us.html">
+              </li>
+            </Link>
+            <Link to="/about-us">
+              <li className="navigation-thq-navigation-link-item-elm3 navigation-link-item">
                 <div>
                   <div className="thq-navigation-link-elm3 navigation-link">
                     <span>About Us</span>
                   </div>
                 </div>
-              </a>
-            </li>
-            <li className="navigation-link-item">
-              <a href="delivery-sustainability.html">
+              </li>
+            </Link>
+            <Link to="/delivery-sustainability">
+              <li className="navigation-thq-navigation-link-item-elm4 navigation-link-item">
                 <div>
                   <div className="thq-navigation-link-elm4 navigation-link">
                     <span>Delivery &amp; Sustainability</span>
                   </div>
                 </div>
-              </a>
-            </li>
+              </li>
+            </Link>
           </ul>
           <button
             aria-label="Open navigation menu"
@@ -159,21 +160,27 @@ const Navigation = (props) => {
                 </div>
               </a>
             </li>
-            <li className="navigation-overlay-item">
+            <li
+              href="gourmet-pizza-menu.html"
+              className="navigation-overlay-item"
+            >
               <a href="/menu">
                 <div className="navigation-overlay-link">
                   <span>Gourmet Pizza Menu</span>
                 </div>
               </a>
             </li>
-            <li className="navigation-overlay-item">
+            <li href="about-us.html" className="navigation-overlay-item">
               <a href="/about">
                 <div className="navigation-overlay-link">
                   <span>About Us</span>
                 </div>
               </a>
             </li>
-            <li className="navigation-overlay-item">
+            <li
+              href="delivery-sustainability.html"
+              className="navigation-overlay-item"
+            >
               <a href="/delivery">
                 <div className="navigation-overlay-link">
                   <span>
