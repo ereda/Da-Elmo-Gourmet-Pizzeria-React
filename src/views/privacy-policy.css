@@ -1,0 +1,29 @@
+.privacy-policy-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.privacy-policy-container2 {
+  display: none;
+}
+ 
+.privacy-policy-container3 {
+  display: contents;
+}
+ 
+.privacy-policy-container4 {
+  display: none;
+}
+ 
+.privacy-policy-container5 {
+  display: contents;
+}
+ 
+.privacy-policy-container6 {
+  display: none;
+}
+ 
+.privacy-policy-container7 {
+  display: contents;
+}

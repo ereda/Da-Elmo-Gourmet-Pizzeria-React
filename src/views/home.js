@@ -426,11 +426,6 @@ const Home = (props) => {
                   <span>
                     and lemon. Finished with Parmigiano Reggiano and peppery
                     baby arugula.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
                   </span>
                   Our white pizza with garlic-herb oil, Fior di Latte, fresh
                   parsley, and lemon. Finished with peppery baby arugula.
@@ -474,7 +469,7 @@ const Home = (props) => {
                 <p className="gallery-menu-item-description">
                   {' '}
                   Bright and tangy with feta, mixed olives, tomatoes, and red
-                  pepper flakes. Micro cilantro adds a citrusy finish.
+                  pepper flakes. Baby arugula adds a peppery finish.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',

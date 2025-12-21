@@ -200,17 +200,17 @@ const Footer = (props) => {
               />
             </p>
             <div className="footer-legal-links">
-              <a href="#privacy">
-                <div className="footer-legal-link">
+              <Link to="/privacy">
+                <div className="footer-thq-footer-legal-link-elm1 footer-legal-link">
                   <span>Privacy Policy</span>
                 </div>
-              </a>
+              </Link>
               <span className="footer-legal-separator">|</span>
-              <a href="#terms">
-                <div className="footer-legal-link">
+              <Link to="/terms">
+                <div className="footer-thq-footer-legal-link-elm2 footer-legal-link">
                   <span>Terms of Service</span>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

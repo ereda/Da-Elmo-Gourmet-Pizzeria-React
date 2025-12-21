@@ -596,7 +596,15 @@ const AboutUs = (props) => {
                   />
                 </h3>
                 <p className="about-philosophy-timeline-text">
-                  {' '}
+                  <span>
+                    {' '}
+                    We use only the finest cheeses: low-moisture mozzarella for
+                    perfect 
+                  </span>
+                  <span className="about-us-text20">
+                    melt, tangy feta for Mediterranean flair, and freshly grated
+                    Parmigiano Reggiano for that finishing umami touch.
+                  </span>
                   We use only the finest cheeses: low-moisture mozzarella for
                   perfect melt, fresh Fior di Latte for authentic Italian taste,
                   tangy feta for Mediterranean flair, and freshly grated
@@ -936,7 +944,7 @@ const AboutUs = (props) => {
                     />
                   </p>
                   <div className="gallery-menu-badge">
-                    <span>Micro Cilantro</span>
+                    <span>Baby Arugula</span>
                   </div>
                 </div>
               </div>
@@ -979,7 +987,15 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-content">
                   <h3 className="gallery-menu-title">Verde Fresco</h3>
                   <p className="gallery-menu-description">
-                    {' '}
+                    <span>
+                      {' '}
+                      White pizza with olive oil, garlic, parsley, and lemon
+                      juice base. 
+                    </span>
+                    <span className="about-us-text25">
+                      Fresh mozzarella, finished with baby arugula for a bright,
+                      herbaceous, and peppery note.
+                    </span>
                     White pizza with olive oil, garlic, parsley, and lemon juice
                     base. Fresh Fior di Latte mozzarella, finished with baby
                     arugula for a bright, herbaceous, and peppery note.
