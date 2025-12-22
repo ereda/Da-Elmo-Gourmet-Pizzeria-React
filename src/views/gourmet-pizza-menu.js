@@ -35,7 +35,16 @@ const GourmetPizzaMenu = (props) => {
                     Chef-Perfected, Microgreen-Finished
                   </p>
                   <p className="section-content">
-                    {' '}
+                    <span>
+                      {' '}
+                      Experience delivery-first artisan pizza crafted with
+                      premium 
+                    </span>
+                    <span className="gourmet-pizza-menu-text11">
+                      avocado oil dough and finished with GMO-free microgreens.
+                      Seven signature pizzas, exclusively via Uber Eats and
+                      DoorDash.
+                    </span>
                     Experience delivery-first artisan pizza crafted with premium
                     avocado oil dough and finished with GMO-free microgreens.
                     Six signature pizzas, exclusively via Uber Eats and
@@ -127,7 +136,7 @@ const GourmetPizzaMenu = (props) => {
       <section className="menu-list">
         <div className="menu-list__wrapper">
           <div className="menu-list__header">
-            <h2 className="section-title">Six Chef-Driven Pizzas</h2>
+            <h2 className="section-title">Seven Chef-Driven Pizzas</h2>
             <p className="section-subtitle">
               {' '}
               Each pizza is a non-customizable masterpiece featuring
@@ -267,9 +276,7 @@ const GourmetPizzaMenu = (props) => {
                   <span className="menu-list__garnish-label">
                     Signature Finish:
                   </span>
-                  <span className="menu-list__garnish-text">
-                    Micro Cilantro
-                  </span>
+                  <span className="menu-list__garnish-text">Baby Arugula</span>
                 </div>
               </div>
             </div>
@@ -372,7 +379,7 @@ const GourmetPizzaMenu = (props) => {
                 <p className="section-content">
                   <span>
                     {' '}
-                    Garlic-infused olive oil with fresh parsley, lemon juice,
+                    Garlic-infused olive oil with fresh parsley, lemon zest,
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -471,10 +478,7 @@ const GourmetPizzaMenu = (props) => {
             </div>
             <div className="menu-list__item">
               <div className="menu-list__item-image">
-                <img
-                  alt="Pizza Tricolore"
-                  src="/ai-generated/ai-generated-1765077951111-1500w.png"
-                />
+                <img alt="Pizza Tricolore" src="/tricolore7-1500w.jpg" />
                 <div className="menu-list__item-badge">
                   <svg
                     width="24"
@@ -503,7 +507,8 @@ const GourmetPizzaMenu = (props) => {
                 <p className="section-content">
                   <span>
                     {' '}
-                    San Marzano tomatoes, mozzarella cheese, and extra virgin
+                    San Marzano tomato sauce, mozzarella cheese, and extra
+                    virgin
                   </span>
                   <br></br>
                   <span>
@@ -523,6 +528,49 @@ const GourmetPizzaMenu = (props) => {
                       __html: ' ',
                     }}
                   />
+                </p>
+                <div className="menu-list__item-garnish">
+                  <span className="menu-list__garnish-label">
+                    Signature Finish:
+                  </span>
+                  <span className="menu-list__garnish-text">
+                    Fresh Basil Leaves
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="menu-list__item">
+              <div className="menu-list__item-image">
+                <img alt="Pizza Tricolore" src="/marinara5-1500w.jpg" />
+                <div className="menu-list__item-badge">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewbox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8c0 5.5-4.78 10-10 10"></path>
+                      <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <div className="menu-list__item-content">
+                <h3 className="menu-list__item-title">Midnight Marinara</h3>
+                <p className="menu-list__item-subtitle">
+                  A masterpiece of Time &amp; Tradition
+                </p>
+                <p className="section-content">
+                  San Marzano tomato sauce over aromatic garlic-infused olive
+                  oil base, finished with a savory dusting of Parmigiano
+                  Reggiano and wild dried oregano.
                 </p>
                 <div className="menu-list__item-garnish">
                   <span className="menu-list__garnish-label">
@@ -1069,7 +1117,16 @@ const GourmetPizzaMenu = (props) => {
                 Chef-Led, Non-Customizable
               </h3>
               <p className="section-content">
-                {' '}
+                <span>
+                  {' '}
+                  We eliminate the complexity of customization to focus solely
+                  on 
+                </span>
+                <span className="gourmet-pizza-menu-text30">
+                  perfecting seven distinct, chef-driven pizzas. Every
+                  ingredient combination is intentionally balanced and tested to
+                  deliver an uncompromising gourmet experience.
+                </span>
                 We eliminate the complexity of customization to focus solely on
                 perfecting six distinct, chef-driven pizzas. Every ingredient
                 combination is intentionally balanced and tested to deliver an
@@ -1305,6 +1362,37 @@ const GourmetPizzaMenu = (props) => {
                         __html: ' ',
                       }}
                     />
+                  </p>
+                </div>
+                <div className="wine-pairing__card">
+                  <div className="wine-pairing__card-icon">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 className="wine-pairing__card-title">
+                    Midnight Marinara
+                  </h3>
+                  <p className="wine-pairing__card-pizza">Timeless Elegance</p>
+                  <div className="wine-pairing__divider"></div>
+                  <p className="section-content">
+                    We recommend a Chianti Classico; its notes of red cherry and
+                    tomato leaf beautifully mirror the sweetness of our San
+                    Marzano tomatoes. This pairing creates a timeless Italian
+                    experience that balances the savoury garlic and salty
+                    Parmigiano perfectly.
                   </p>
                 </div>
               </div>
