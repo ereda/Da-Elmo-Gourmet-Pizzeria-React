@@ -4,8 +4,36 @@
   min-height: 100vh;
 }
  
+.philosophy-thq-microgreens-qualitygrid-elm {
+  display: flex;
+}
+ 
+.philosophy-text23 {
+  color: #326907;
+}
+ 
+.philosophy-thq-section-content-elm15 {
+  color: rgb(50, 105, 7);
+}
+ 
+.philosophy-thq-section-content-elm17 {
+  color: rgb(50, 105, 7);
+}
+ 
+.philosophy-thq-section-content-elm19 {
+  color: rgb(50, 105, 7);
+}
+ 
 .philosophy-thq-gallery-qualitygrid-elm {
   display: flex;
+}
+ 
+.philosophy-thq-btn-elm1 {
+  text-decoration: none;
+}
+ 
+.philosophy-thq-btn-elm2 {
+  text-decoration: none;
 }
  
 .philosophy-container2 {
