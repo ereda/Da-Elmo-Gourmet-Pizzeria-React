@@ -15,7 +15,8 @@ import DeliverySustainability from './views/delivery-sustainability'
 import Terms from './views/terms'
 import AboutUs from './views/about-us'
 import GourmetPizzaMenu from './views/gourmet-pizza-menu'
-import CulinaryPhilosophyIngredients from './views/culinary-philosophy-ingredients'
+import Philosophy from './views/philosophy'
+import Ingredients from './views/ingredients'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -33,11 +34,8 @@ const App = () => {
         <Route component={Terms} exact path="/terms" />
         <Route component={AboutUs} exact path="/about-us" />
         <Route component={GourmetPizzaMenu} exact path="/gourmet-pizza-menu" />
-        <Route
-          component={CulinaryPhilosophyIngredients}
-          exact
-          path="/culinary-philosophy-ingredients"
-        />
+        <Route component={Philosophy} exact path="/philosophy" />
+        <Route component={Ingredients} exact path="/ingredients" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

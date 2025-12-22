@@ -122,11 +122,11 @@ const Navigation = (props) => {
           <div className="navigation-overlay-header">
             <a href="/">
               <div
-                aria-label="Microcrust Pizza Homepage"
+                aria-label="Da Elmo Gourmet Pizzeria Homepage"
                 className="navigation-overlay-logo"
               >
                 <span className="section-title navigation-logo-text">
-                  Microcrust
+                  Da Elmo
                 </span>
               </div>
             </a>

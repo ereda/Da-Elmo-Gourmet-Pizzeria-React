@@ -1,0 +1,25 @@
+.philosophy-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.philosophy-thq-gallery-qualitygrid-elm {
+  display: flex;
+}
+ 
+.philosophy-container2 {
+  display: none;
+}
+ 
+.philosophy-container3 {
+  display: contents;
+}
+ 
+.philosophy-container4 {
+  display: none;
+}
+ 
+.philosophy-container5 {
+  display: contents;
+}
