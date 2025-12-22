@@ -183,6 +183,17 @@ const Navigation = (props) => {
                 </div>
               </a>
             </li>
+            <li className="navigation-overlay-item">
+              <a href="philosophy.html">
+                <div>
+                  <div>
+                    <div className="navigation-overlay-link">
+                      <span>Our Philosophy</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
             <li href="about-us.html" className="navigation-overlay-item">
               <a href="about-us.html">
                 <div>
@@ -207,8 +218,8 @@ const Navigation = (props) => {
           </ul>
         </div>
       </nav>
-      <div className="navigation-container22">
-        <div className="navigation-container23">
+      <div className="navigation-container24">
+        <div className="navigation-container25">
           <Script
             html={`<style>
         @keyframes navigationSlideIn {to {opacity: 1;
@@ -217,8 +228,8 @@ transform: translateY(0);}}
           ></Script>
         </div>
       </div>
-      <div className="navigation-container24">
-        <div className="navigation-container25">
+      <div className="navigation-container26">
+        <div className="navigation-container27">
           <Script
             html={`<script defer data-name="navigation-toggle">
 (function(){
