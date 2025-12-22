@@ -76,8 +76,17 @@ const Navigation = (props) => {
                 </div>
               </li>
             </Link>
-            <Link to="/about-us">
+            <Link to="/philosophy">
               <li className="navigation-thq-navigation-link-item-elm3 navigation-link-item">
+                <div>
+                  <div className="thq-navigation-link-elm2 navigation-link">
+                    <span>Our Philosophy</span>
+                  </div>
+                </div>
+              </li>
+            </Link>
+            <Link to="/about-us">
+              <li className="navigation-thq-navigation-link-item-elm4 navigation-link-item">
                 <div>
                   <div className="thq-navigation-link-elm3 navigation-link">
                     <span>About Us</span>
@@ -86,7 +95,7 @@ const Navigation = (props) => {
               </li>
             </Link>
             <Link to="/delivery-sustainability">
-              <li className="navigation-thq-navigation-link-item-elm4 navigation-link-item">
+              <li className="navigation-thq-navigation-link-item-elm5 navigation-link-item">
                 <div>
                   <div className="navigation-link thq-navigation-link-elm4">
                     <span>Delivery &amp; Sustainability</span>
@@ -198,8 +207,8 @@ const Navigation = (props) => {
           </ul>
         </div>
       </nav>
-      <div className="navigation-container21">
-        <div className="navigation-container22">
+      <div className="navigation-container22">
+        <div className="navigation-container23">
           <Script
             html={`<style>
         @keyframes navigationSlideIn {to {opacity: 1;
@@ -208,8 +217,8 @@ transform: translateY(0);}}
           ></Script>
         </div>
       </div>
-      <div className="navigation-container23">
-        <div className="navigation-container24">
+      <div className="navigation-container24">
+        <div className="navigation-container25">
           <Script
             html={`<script defer data-name="navigation-toggle">
 (function(){
