@@ -1077,7 +1077,27 @@ const DeliverySustainability = (props) => {
         <div className="menu-philosophy-header">
           <h2 className="section-title">Why No Customization?</h2>
           <p className="section-subtitle">
-            {' '}
+            <span>
+              {' '}
+              Our curated menu of six chef-driven pizzas represents years of
+              culinary
+            </span>
+            <br></br>
+            <span>
+              {' '}
+              refinement. Every ingredient, every ratio, every topping is
+              perfectly
+            </span>
+            <br></br>
+            <span>
+              {' '}
+              balanced for the ultimate gourmet experience.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
             Our curated menu of six chef-driven pizzas represents years of
             culinary refinement. Every ingredient, every ratio, every topping is
             perfectly balanced for the ultimate gourmet experience.

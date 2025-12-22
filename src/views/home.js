@@ -160,7 +160,21 @@ const Home = (props) => {
                   </svg>
                   <h3 className="hero-main-feature-title">Chef-Curated Menu</h3>
                   <p className="hero-main-feature-text">
-                    {' '}
+                    <span>
+                      {' '}
+                      Seven distinct pizzas perfected in every detail, no
+                      customization
+                    </span>
+                    <br></br>
+                    <span>
+                      {' '}
+                      needed
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
                     Six distinct pizzas perfected in every detail, no
                     customization needed
                     <span
@@ -270,7 +284,7 @@ const Home = (props) => {
       <section className="gallery-menu">
         <div className="gallery-menu-wrapper">
           <div className="gallery-menu-header">
-            <h2 className="section-title">Six Signature Pizzas</h2>
+            <h2 className="section-title">Seven Signature Pizzas</h2>
             <p className="section-subtitle">
               {' '}
               Each pizza is a chef-driven masterpiece, finished with our
@@ -390,7 +404,7 @@ const Home = (props) => {
             </div>
             <div className="gallery-menu-item">
               <img
-                alt="Verde Fresco white pizza with arugula"
+                alt="Mediterranean Coast pizza with feta and olives"
                 src="/ai-generated/ai-generated-1765657227595-1500w.png"
                 className="gallery-menu-image"
               />
@@ -418,22 +432,8 @@ const Home = (props) => {
                 </div>
                 <h3 className="gallery-menu-item-title">Verde Fresco</h3>
                 <p className="gallery-menu-item-description">
-                  <span>
-                    {' '}
-                    Our white pizza with garlic-herb oil, mozzarella, fresh
-                    parsley, 
-                  </span>
-                  <span>
-                    and lemon. Finished with Parmigiano Reggiano and peppery
-                    baby arugula.
-                  </span>
-                  Our white pizza with garlic-herb oil, Fior di Latte, fresh
-                  parsley, and lemon. Finished with peppery baby arugula.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  Our white pizza with garlic-herb oil, mozzarella, fresh
+                  parsley, and lemon zest.
                 </p>
               </div>
             </div>
@@ -463,7 +463,7 @@ const Home = (props) => {
                       <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
                     </g>
                   </svg>
-                  <span>Micro Cilantro</span>
+                  <span>Baby Arugula</span>
                 </div>
                 <h3 className="gallery-menu-item-title">Mediterranean Coast</h3>
                 <p className="gallery-menu-item-description">
@@ -475,6 +475,42 @@ const Home = (props) => {
                       __html: ' ',
                     }}
                   />
+                </p>
+              </div>
+            </div>
+            <div className="gallery-menu-item">
+              <img
+                alt="Mediterranean Coast pizza with feta and olives"
+                src="/marinara5-1500w.jpg"
+                className="gallery-menu-image"
+              />
+              <div className="gallery-menu-item-overlay"></div>
+              <div className="gallery-menu-item-content">
+                <div className="gallery-menu-item-badge">
+                  <svg
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8c0 5.5-4.78 10-10 10"></path>
+                      <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+                    </g>
+                  </svg>
+                  <span>Fresh Basil</span>
+                </div>
+                <h3 className="gallery-menu-item-title">Mediterranean Coast</h3>
+                <p className="gallery-menu-item-description">
+                  {' '}
+                  San Marzano tomato sauce over a garlic-infused olive oil base,
+                  with savoury Parmigiano Reggiano and dried oregano.
                 </p>
               </div>
             </div>
@@ -743,7 +779,24 @@ const Home = (props) => {
                     />
                   </h3>
                   <p className="about-quality-timeline-text">
-                    {' '}
+                    <span>
+                      {' '}
+                      We eliminate the complexity of customization to focus
+                      solely on 
+                    </span>
+                    <span className="home-text29">
+                      perfecting a curated menu of seven distinct, chef-driven
+                      pizzas.
+                    </span>
+                    <br></br>
+                    <span>
+                      {' '}
+                      Every detail is perfected, every ingredient is deliberate,
+                      and 
+                    </span>
+                    <span className="home-text32">
+                      every bite delivers an uncompromising gourmet experience.
+                    </span>
                     We eliminate the complexity of customization to focus solely
                     on perfecting a curated menu of six distinct, chef-driven
                     pizzas. Every detail is perfected, every ingredient is
@@ -1304,7 +1357,27 @@ const Home = (props) => {
                   </svg>
                 </div>
                 <p className="testimonials-reviews-card-quote">
-                  {' '}
+                  <span>
+                    {' '}
+                    As someone who values quality ingredients, I&apos;m blown
+                    away by the
+                  </span>
+                  <br></br>
+                  <span>
+                    {' '}
+                    avocado oil dough and San Marzano tomatoes. You can taste
+                    the
+                  </span>
+                  <br></br>
+                  <span>
+                    {' '}
+                    difference. The Verde Fresco is restaurant-quality!
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                   As someone who values quality ingredients, I&apos;m blown away
                   by the avocado oil dough and San Marzano tomatoes. You can
                   taste the difference. The Verde Fresco is restaurant-quality!
@@ -1411,7 +1484,26 @@ const Home = (props) => {
                   </svg>
                 </div>
                 <p className="testimonials-reviews-card-quote">
-                  {' '}
+                  <span>
+                    {' '}
+                    The curated menu is brilliant. No decision fatigue, just
+                    seven
+                  </span>
+                  <br></br>
+                  <span>
+                    {' '}
+                    perfectly crafted options. The Tuscan Gardener with broccoli
+                  </span>
+                  <br></br>
+                  <span>
+                    {' '}
+                    microgreens is my go-to for a lighter, veggie-packed meal.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                   The curated menu is brilliant. No decision fatigue, just six
                   perfectly crafted options. The Tuscan Gardener with broccoli
                   microgreens is my go-to for a lighter, veggie-packed meal.

@@ -106,7 +106,7 @@ const AboutUs = (props) => {
               <br></br>
               <span>
                 {' '}
-                expertise on six distinct, chef-driven pizzas. Each recipe is
+                expertise on seven distinct, chef-driven pizzas. Each recipe is
               </span>
               <br></br>
               <span>
@@ -642,7 +642,16 @@ const AboutUs = (props) => {
                   Curated Perfection
                 </h3>
                 <p className="about-philosophy-timeline-text">
-                  {' '}
+                  <span>
+                    {' '}
+                    We focus on seven distinct pizzas, eliminating customization
+                    to 
+                  </span>
+                  <span className="about-us-text22">
+                    perfect every detail. Each recipe is chef-driven and
+                    non-negotiable, ensuring consistent excellence in every
+                    bite.
+                  </span>
                   We focus on six distinct pizzas, eliminating customization to
                   perfect every detail. Each recipe is chef-driven and
                   non-negotiable, ensuring consistent excellence in every bite.
@@ -880,7 +889,7 @@ const AboutUs = (props) => {
       <section className="gallery-menu-section">
         <div className="about-us-gallery-menu-wrapper">
           <div className="about-us-gallery-menu-header">
-            <h2 className="section-title">Our Six Signature Pizzas</h2>
+            <h2 className="section-title">Our Seven Signature Pizzas</h2>
             <p className="section-subtitle">
               {' '}
               Each pizza is a chef-driven masterpiece, finished with
@@ -992,7 +1001,7 @@ const AboutUs = (props) => {
                       White pizza with olive oil, garlic, parsley, and lemon
                       juice base. 
                     </span>
-                    <span className="about-us-text25">
+                    <span className="about-us-text27">
                       Fresh mozzarella, finished with baby arugula for a bright,
                       herbaceous, and peppery note.
                     </span>
