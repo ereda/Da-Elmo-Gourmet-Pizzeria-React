@@ -645,17 +645,11 @@ const Home = (props) => {
                     />
                   </h3>
                   <p className="about-quality-timeline-text">
-                    {' '}
-                    Our rich, vibrant sauce starts with authentic San Marzano
-                    tomatoes, ensuring a true Italian base. These prized
-                    tomatoes are grown in volcanic soil, delivering the perfect
-                    balance of sweetness and acidity that defines exceptional
+                    Our rich, vibrant sauce starts with authentic San
+                    Marzano tomatoes, ensuring a true Italian base. These prized
+                    tomatoes are grown in volcanic soil, delivering the perfect
+                    balance of sweetness and acidity that defines exceptional
                     pizza sauce.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
                   </p>
                 </div>
               </div>
@@ -690,33 +684,11 @@ const Home = (props) => {
                     />
                   </h3>
                   <p className="about-quality-timeline-text">
-                    <span>
-                      {' '}
-                      Our hallmark is the final touch of hyper-fresh, GMO-free, 
-                    </span>
-                    <span className="home-text21">
-                      pesticide-free microgreens. Each variety is intentionally
-                      chosen
-                    </span>
-                    <br></br>
-                    <span>
-                      {' '}
-                      to balance and elevate its pizza, from peppery radish
-                      microgreens 
-                    </span>
-                    <span className="home-text24">
-                      to micro arugula, adding the perfect finishing note.
-                    </span>
-                    Our hallmark is the final touch of hyper-fresh, GMO-free,
-                    pesticide-free microgreens. Each variety is intentionally
-                    chosen to balance and elevate its pizza, from peppery radish
-                    microgreens to bright micro cilantro, adding the perfect
-                    finishing note.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                    Our hallmark is the final touch of hyper-fresh,
+                    GMO-free, pesticide-free microgreens. Each variety is
+                    intentionally chosen to balance and elevate its pizza, from
+                    peppery radish microgreens to micro arugula, adding the
+                    perfect finishing note.
                   </p>
                 </div>
               </div>
@@ -750,33 +722,26 @@ const Home = (props) => {
                   </h3>
                   <p className="about-quality-timeline-text">
                     <span>
-                      {' '}
-                      We eliminate the complexity of customization to focus
-                      solely on 
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
                     </span>
-                    <span className="home-text26">
-                      perfecting a curated menu of seven distinct, chef-driven
-                      pizzas.
-                    </span>
-                    <br></br>
                     <span>
-                      {' '}
-                      Every detail is perfected, every ingredient is deliberate,
-                      and 
+                      We eliminate the complexity of customization to focus
+                      solely on perfecting a curated menu of seven distinct,
+                      chef-driven pizzas. Every detail is perfected, every
+                      ingredient is deliberate, and every bite delivers an
+                      uncompromising gourmet experience.
                     </span>
-                    <span className="home-text29">
-                      every bite delivers an uncompromising gourmet experience.
+                    <span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
                     </span>
-                    We eliminate the complexity of customization to focus solely
-                    on perfecting a curated menu of six distinct, chef-driven
-                    pizzas. Every detail is perfected, every ingredient is
-                    deliberate, and every bite delivers an uncompromising
-                    gourmet experience.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
                   </p>
                 </div>
               </div>
@@ -887,33 +852,10 @@ const Home = (props) => {
                       />
                     </h3>
                     <p className="features-sustainability-card-text">
-                      <span>
-                        {' '}
-                        Every pizza is prepared with the freshest ingredients.
-                      </span>
-                      <br></br>
-                      <span>
-                        {' '}
-                        Our packaging system preserves the perfect temperature
-                        and
-                      </span>
-                      <br></br>
-                      <span>
-                        {' '}
-                        texture from our kitchen to your table, ensuring 
-                      </span>
-                      <span>
-                        restaurant-quality results every time.
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      Every pizza is prepared to order with the freshest
-                      ingredients. Our packaging system preserves the perfect
-                      temperature and texture from our kitchen to your table,
-                      guaranteeing restaurant-quality results every time.
+                      Every pizza is prepared with the freshest ingredients. Our
+                      packaging system preserves the perfect temperature and
+                      texture from our kitchen to your table,
+                      ensuring restaurant-quality results every time.
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
@@ -1139,31 +1081,9 @@ const Home = (props) => {
                   </svg>
                 </div>
                 <p className="testimonials-reviews-card-quote">
-                  <span>
-                    {' '}
-                    The microgreen finish is absolutely genius! I&apos;ve never
-                    tasted pizza 
-                  </span>
-                  <span>
-                    this fresh and sophisticated delivered to my door. The
-                    Pizza 
-                  </span>
-                  <span>
-                    Tricolore is perfection.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
                   The microgreen finish is absolutely genius! I&apos;ve never
-                  tasted pizza this fresh and sophisticated delivered to my
-                  door. The Pizza Tricolore is perfection.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  tasted pizza this fresh and sophisticated delivered to my
+                  door. The Pizza Tricolore is perfection.
                 </p>
                 <div className="testimonials-reviews-card-author">
                   <div className="testimonials-reviews-card-author-info">
@@ -1363,35 +1283,10 @@ const Home = (props) => {
                   </svg>
                 </div>
                 <p className="testimonials-reviews-card-quote">
-                  <span>
-                    {' '}
-                    As someone who values quality ingredients, I&apos;m blown
-                    away by the
-                  </span>
-                  <br></br>
-                  <span>
-                    {' '}
-                    avocado oil dough and San Marzano tomatoes. You can taste
-                    the
-                  </span>
-                  <br></br>
-                  <span>
-                    {' '}
-                    difference. The Verde Fresco is restaurant-quality!
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
                   As someone who values quality ingredients, I&apos;m blown away
                   by the avocado oil dough and San Marzano tomatoes. You can
-                  taste the difference. The Verde Fresco is restaurant-quality!
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  taste the difference. The Midnight Marinara is
+                  restaurant-quality!
                 </p>
                 <div className="testimonials-reviews-card-author">
                   <div className="testimonials-reviews-card-author-info">

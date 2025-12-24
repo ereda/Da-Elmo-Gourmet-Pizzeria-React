@@ -34,26 +34,11 @@ const GourmetPizzaMenu = (props) => {
                   <p className="hero-subtitle">
                     Chef-Perfected, Microgreen-Finished
                   </p>
-                  <p className="section-content">
-                    <span>
-                      {' '}
-                      Experience delivery-first artisan pizza crafted with
-                      premium 
-                    </span>
-                    <span className="gourmet-pizza-menu-text11">
-                      avocado oil dough and finished with GMO-free microgreens.
-                      Seven signature pizzas, exclusively via Uber Eats and
-                      DoorDash.
-                    </span>
-                    Experience delivery-first artisan pizza crafted with premium
-                    avocado oil dough and finished with GMO-free microgreens.
-                    Six signature pizzas, exclusively via Uber Eats and
-                    DoorDash.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                  <p className="hero-subtitle">
+                    Experience delivery-first artisan pizza crafted with
+                    premium avocado oil dough and finished with GMO-free
+                    microgreens. Seven signature pizzas, exclusively via Uber
+                    Eats and DoorDash.
                   </p>
                   <div className="hero-carousel__cta-group">
                     <a
@@ -179,28 +164,8 @@ const GourmetPizzaMenu = (props) => {
                 <h3 className="menu-list__item-title">Funghi e Cipolla</h3>
                 <p className="menu-list__item-subtitle">Mushroom and Onion</p>
                 <p className="section-content">
-                  <span>
-                    {' '}
-                    Rich, earthy cremini mushrooms and sweet red onions on San
-                    Marzano
-                  </span>
-                  <br></br>
-                  <span>
-                    {' '}
-                    sauce with mozzarella and Parmigiano Reggiano.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
                   Rich, earthy cremini mushrooms and sweet red onions on San
                   Marzano sauce with mozzarella and Parmigiano Reggiano.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
                 </p>
                 <div className="menu-list__item-garnish">
                   <span className="menu-list__garnish-label">
@@ -247,30 +212,12 @@ const GourmetPizzaMenu = (props) => {
               <div className="menu-list__item-content">
                 <h3 className="menu-list__item-title">Mediterranean Coast</h3>
                 <p className="menu-list__item-subtitle">
-                  Bright, Citrusy &amp; Vibrant
+                  Bright, Peppery &amp; Vibrant
                 </p>
                 <p className="section-content">
-                  <span>
-                    Mozzarella, tangy feta cheese, mixed olives, and fresh
-                    tomatoes on San Marzano
-                  </span>
-                  <br></br>
-                  <span>
-                    {' '}
-                    sauce with a pinch of red pepper flakes.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  Tangy feta cheese, mixed olives, and fresh tomatoes on San
-                  Marzano sauce with a pinch of red pepper flakes.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  Mozzarella, tangy feta cheese, mixed olives, and fresh
+                  tomatoes on San Marzano sauce with a pinch of red pepper
+                  flakes.
                 </p>
                 <div className="menu-list__item-garnish">
                   <span className="menu-list__garnish-label">
@@ -312,28 +259,8 @@ const GourmetPizzaMenu = (props) => {
                   Vegetable-Forward Excellence
                 </p>
                 <p className="section-content">
-                  <span>
-                    {' '}
-                    Roasted broccoli, cauliflower, peppers, and sautéed
-                    mushrooms on San
-                  </span>
-                  <br></br>
-                  <span>
-                    {' '}
-                    Marzano sauce with mozzarella and Parmigiano Reggiano.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
                   Roasted broccoli, cauliflower, peppers, and sautéed mushrooms
                   on San Marzano sauce with mozzarella and Parmigiano Reggiano.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
                 </p>
                 <div className="menu-list__item-garnish">
                   <span className="menu-list__garnish-label">
@@ -377,30 +304,9 @@ const GourmetPizzaMenu = (props) => {
                   Fresh Green White Pizza
                 </p>
                 <p className="section-content">
-                  <span>
-                    {' '}
-                    Garlic-infused olive oil with fresh parsley, lemon zest,
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    mozzarella cheese and Parmigiano Reggiano. No tomato sauce.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  Garlic-infused olive oil with fresh parsley, lemon juice, Fior
-                  di Latte mozzarella, and Parmigiano Reggiano. No tomato sauce.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  San Marzano tomato sauce over aromatic garlic-infused olive
+                  oil base, finished with a savory dusting of Parmigiano
+                  Reggiano and wild dried oregano.
                 </p>
                 <div className="menu-list__item-garnish">
                   <span className="menu-list__garnish-label">
@@ -442,29 +348,9 @@ const GourmetPizzaMenu = (props) => {
                   Spicy, Rich &amp; Bold
                 </p>
                 <p className="section-content">
-                  <span>
-                    {' '}
-                    High-quality pepperoni with sautéed mushrooms and roasted
-                    peppers, mozzarella cheese
-                  </span>
-                  <br></br>
-                  <span>
-                    {' '}
-                    finished with hot honey for gourmet contrast.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  High-quality pepperoni with sautéed mushrooms and roasted
-                  peppers, finished with hot honey or chili oil for gourmet
-                  contrast.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  San Marzano tomato sauce over aromatic garlic-infused olive
+                  oil base, finished with a savory dusting of Parmigiano
+                  Reggiano and wild dried oregano.
                 </p>
                 <div className="menu-list__item-garnish">
                   <span className="menu-list__garnish-label">
@@ -505,29 +391,9 @@ const GourmetPizzaMenu = (props) => {
                   The Perfect Italian Classic
                 </p>
                 <p className="section-content">
-                  <span>
-                    {' '}
-                    San Marzano tomato sauce, mozzarella cheese, and extra
-                    virgin
-                  </span>
-                  <br></br>
-                  <span>
-                    {' '}
-                    olive oil. A celebration of Italy&apos;s finest ingredients.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  San Marzano tomatoes, Fior di Latte mozzarella, and extra
-                  virgin olive oil. A celebration of Italy&apos;s finest
-                  ingredients.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  San Marzano tomato sauce over aromatic garlic-infused olive
+                  oil base, finished with a savory dusting of Parmigiano
+                  Reggiano and wild dried oregano.
                 </p>
                 <div className="menu-list__item-garnish">
                   <span className="menu-list__garnish-label">
@@ -736,12 +602,11 @@ const GourmetPizzaMenu = (props) => {
                   />
                 </h3>
                 <p className="section-content">
-                  {' '}
                   Each pizza receives a signature microgreen that&apos;s
                   specifically chosen to balance and elevate its profile. Radish
-                  microgreens cut through rich pepperoni, micro cilantro
-                  brightens salty feta, and baby arugula adds peppery freshness
-                  to white pizza.
+                  microgreens cut through rich pepperoni, micro arugula
+                  brightens salty feta and adds peppery freshness to white
+                  pizza.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -1117,25 +982,10 @@ const GourmetPizzaMenu = (props) => {
                 Chef-Led, Non-Customizable
               </h3>
               <p className="section-content">
-                <span>
-                  {' '}
-                  We eliminate the complexity of customization to focus solely
-                  on 
-                </span>
-                <span className="gourmet-pizza-menu-text30">
-                  perfecting seven distinct, chef-driven pizzas. Every
-                  ingredient combination is intentionally balanced and tested to
-                  deliver an uncompromising gourmet experience.
-                </span>
-                We eliminate the complexity of customization to focus solely on
-                perfecting six distinct, chef-driven pizzas. Every ingredient
-                combination is intentionally balanced and tested to deliver an
-                uncompromising gourmet experience.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+                We eliminate the complexity of customization to focus solely
+                on perfecting seven distinct, chef-driven pizzas. Every
+                ingredient combination is intentionally balanced and tested to
+                deliver an uncompromising gourmet experience.
               </p>
             </div>
           </div>
