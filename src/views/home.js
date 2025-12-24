@@ -160,28 +160,8 @@ const Home = (props) => {
                   </svg>
                   <h3 className="hero-main-feature-title">Chef-Curated Menu</h3>
                   <p className="hero-main-feature-text">
-                    <span>
-                      {' '}
-                      Seven distinct pizzas perfected in every detail, no
-                      customization
-                    </span>
-                    <br></br>
-                    <span>
-                      {' '}
-                      needed
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    Six distinct pizzas perfected in every detail, no
+                    Seven distinct pizzas perfected in every detail, no
                     customization needed
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
                   </p>
                 </div>
                 <div className="hero-main-feature-card">
@@ -328,35 +308,9 @@ const Home = (props) => {
                 </div>
                 <h3 className="gallery-menu-item-title">Pizza Tricolore</h3>
                 <p className="gallery-menu-item-description">
-                  <span>
-                    {' '}
-                    The perfect Italian classic featuring mozzarella, San
-                    Marzano
-                  </span>
-                  <br></br>
-                  <span>
-                    {' '}
-                    tomatoes, and fresh basil leaves. The three colors of the
-                    Italian
-                  </span>
-                  <br></br>
-                  <span>
-                    {' '}
-                    flag in pure form.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  The perfect Italian classic featuring Fior di Latte, San
-                  Marzano tomatoes, and fresh basil leaves. The three colors of
-                  the Italian flag in pure form.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  The perfect Italian classic featuring mozzarella, San Marzano
+                  tomatoes, and fresh basil leaves. The three colours of the
+                  Italian flag in pure form.
                 </p>
               </div>
             </div>
@@ -506,11 +460,11 @@ const Home = (props) => {
                   </svg>
                   <span>Fresh Basil</span>
                 </div>
-                <h3 className="gallery-menu-item-title">Mediterranean Coast</h3>
+                <h3 className="gallery-menu-item-title">Midnight Marinara</h3>
                 <p className="gallery-menu-item-description">
                   {' '}
                   San Marzano tomato sauce over a garlic-infused olive oil base,
-                  with savoury Parmigiano Reggiano and dried oregano.
+                  with savoury Parmigiano Reggiano and fresh basil.
                 </p>
               </div>
             </div>
@@ -736,7 +690,23 @@ const Home = (props) => {
                     />
                   </h3>
                   <p className="about-quality-timeline-text">
-                    {' '}
+                    <span>
+                      {' '}
+                      Our hallmark is the final touch of hyper-fresh, GMO-free, 
+                    </span>
+                    <span className="home-text21">
+                      pesticide-free microgreens. Each variety is intentionally
+                      chosen
+                    </span>
+                    <br></br>
+                    <span>
+                      {' '}
+                      to balance and elevate its pizza, from peppery radish
+                      microgreens 
+                    </span>
+                    <span className="home-text24">
+                      to micro arugula, adding the perfect finishing note.
+                    </span>
                     Our hallmark is the final touch of hyper-fresh, GMO-free,
                     pesticide-free microgreens. Each variety is intentionally
                     chosen to balance and elevate its pizza, from peppery radish
@@ -784,7 +754,7 @@ const Home = (props) => {
                       We eliminate the complexity of customization to focus
                       solely on 
                     </span>
-                    <span className="home-text29">
+                    <span className="home-text26">
                       perfecting a curated menu of seven distinct, chef-driven
                       pizzas.
                     </span>
@@ -794,7 +764,7 @@ const Home = (props) => {
                       Every detail is perfected, every ingredient is deliberate,
                       and 
                     </span>
-                    <span className="home-text32">
+                    <span className="home-text29">
                       every bite delivers an uncompromising gourmet experience.
                     </span>
                     We eliminate the complexity of customization to focus solely
@@ -909,7 +879,7 @@ const Home = (props) => {
                   <div className="features-sustainability-card-content">
                     <h3 className="features-sustainability-card-title">
                       {' '}
-                      Freshness Guarantee
+                      Commitment to Freshness
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
@@ -917,7 +887,29 @@ const Home = (props) => {
                       />
                     </h3>
                     <p className="features-sustainability-card-text">
-                      {' '}
+                      <span>
+                        {' '}
+                        Every pizza is prepared with the freshest ingredients.
+                      </span>
+                      <br></br>
+                      <span>
+                        {' '}
+                        Our packaging system preserves the perfect temperature
+                        and
+                      </span>
+                      <br></br>
+                      <span>
+                        {' '}
+                        texture from our kitchen to your table, ensuring 
+                      </span>
+                      <span>
+                        restaurant-quality results every time.
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                       Every pizza is prepared to order with the freshest
                       ingredients. Our packaging system preserves the perfect
                       temperature and texture from our kitchen to your table,
@@ -1042,7 +1034,21 @@ const Home = (props) => {
           <div className="testimonials-reviews-header">
             <h2 className="section-title">What Our Customers Say</h2>
             <p className="section-subtitle">
-              {' '}
+              <span>
+                {' '}
+                Real experiences from pizza lovers who&apos;ve discovered the Da
+                Elmo Gourmet
+              </span>
+              <br></br>
+              <span>
+                {' '}
+                difference.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
               Real experiences from pizza lovers who&apos;ve discovered the
               Microcrust difference.
               <span

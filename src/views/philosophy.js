@@ -25,8 +25,8 @@ const Philosophy = (props) => {
       <section className="hero-quality">
         <div className="hero-quality__media-container">
           <img
-            src="https://images.pexels.com/photos/5903439/pexels-photo-5903439.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
             alt="Hand pouring olive oil onto a freshly prepared pizza with tomato sauce"
+            src="https://images.pexels.com/photos/5903439/pexels-photo-5903439.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
             className="hero-quality__image"
           />
           <div className="hero-quality__overlay"></div>
@@ -35,17 +35,17 @@ const Philosophy = (props) => {
           <div className="hero-quality__content">
             <div className="hero-quality__badge">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 width="24"
+                xmlns="http://www.w3.org/2000/svg"
                 height="24"
                 viewBox="0 0 24 24"
               >
                 <g
                   fill="none"
                   stroke="currentColor"
+                  strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth="2"
                 >
                   <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                   <path d="m9 12l2 2l4-4"></path>
@@ -65,35 +65,35 @@ const Philosophy = (props) => {
             <div className="hero-quality__pillars">
               <div className="hero-quality__pillar">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="32"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="32"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5S5 13 5 15a7 7 0 0 0 7 7"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5S5 13 5 15a7 7 0 0 0 7 7"
                   ></path>
                 </svg>
                 <span>Avocado Oil Dough</span>
               </div>
               <div className="hero-quality__pillar">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="32"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="32"
                   viewBox="0 0 24 24"
                 >
                   <g
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
                   >
                     <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8c0 5.5-4.78 10-10 10"></path>
                     <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
@@ -103,18 +103,18 @@ const Philosophy = (props) => {
               </div>
               <div className="hero-quality__pillar">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="32"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="32"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                   ></path>
                 </svg>
                 <span>Microgreen Finishing</span>
@@ -126,10 +126,10 @@ const Philosophy = (props) => {
       <section className="foundation-quality">
         <div className="foundation-quality__container">
           <div className="foundation-quality__split">
-            <div className="foundation-quality__column foundation-quality__column--media">
+            <div className="foundation-quality__column--media foundation-quality__column">
               <img
-                src="https://images.pexels.com/photos/10332298/pexels-photo-10332298.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 alt="Close-up of fresh and vibrant red San Marzano tomatoes"
+                src="https://images.pexels.com/photos/10332298/pexels-photo-10332298.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 className="foundation-quality__image"
               />
               <div className="foundation-quality__detail-badge">
@@ -139,26 +139,26 @@ const Philosophy = (props) => {
                 </span>
               </div>
             </div>
-            <div className="foundation-quality__column foundation-quality__column--content">
+            <div className="foundation-quality__column--content foundation-quality__column">
               <div className="foundation-quality__header">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="48"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="48"
                   viewBox="0 0 24 24"
                 >
                   <g
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
                   >
                     <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8c0 5.5-4.78 10-10 10"></path>
                     <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
                   </g>
                 </svg>
-                <h2 className="foundation-quality__heading section-title">
+                <h2 className="section-title foundation-quality__heading">
                   San Marzano Tomatoes: The Heart of Authenticity
                 </h2>
               </div>
@@ -180,17 +180,17 @@ const Philosophy = (props) => {
               <div className="foundation-quality__features">
                 <div className="foundation-quality__feature">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                       <path d="m9 12l2 2l4-4"></path>
@@ -200,17 +200,17 @@ const Philosophy = (props) => {
                 </div>
                 <div className="foundation-quality__feature">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                       <path d="m9 12l2 2l4-4"></path>
@@ -222,10 +222,10 @@ const Philosophy = (props) => {
             </div>
           </div>
           <div className="foundation-quality__split foundation-quality__split--reverse">
-            <div className="foundation-quality__column foundation-quality__column--media">
+            <div className="foundation-quality__column--media foundation-quality__column">
               <img
-                src="https://images.pexels.com/photos/9685252/pexels-photo-9685252.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 alt="Hands crafting pizza dough with flour on a marble countertop"
+                src="https://images.pexels.com/photos/9685252/pexels-photo-9685252.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 className="foundation-quality__image"
               />
               <div className="foundation-quality__detail-badge">
@@ -237,24 +237,24 @@ const Philosophy = (props) => {
                 </span>
               </div>
             </div>
-            <div className="foundation-quality__column foundation-quality__column--content">
+            <div className="foundation-quality__column--content foundation-quality__column">
               <div className="foundation-quality__header">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="48"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="48"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5S5 13 5 15a7 7 0 0 0 7 7"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5S5 13 5 15a7 7 0 0 0 7 7"
                   ></path>
                 </svg>
-                <h2 className="foundation-quality__heading section-title">
+                <h2 className="section-title foundation-quality__heading">
                   Avocado Oil Dough: The Foundation of Flavor
                 </h2>
               </div>
@@ -278,17 +278,17 @@ const Philosophy = (props) => {
               <div className="foundation-quality__features">
                 <div className="foundation-quality__feature">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                       <path d="m9 12l2 2l4-4"></path>
@@ -298,17 +298,17 @@ const Philosophy = (props) => {
                 </div>
                 <div className="foundation-quality__feature">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                       <path d="m9 12l2 2l4-4"></path>
@@ -318,17 +318,17 @@ const Philosophy = (props) => {
                 </div>
                 <div className="foundation-quality__feature">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                       <path d="m9 12l2 2l4-4"></path>
@@ -347,7 +347,7 @@ const Philosophy = (props) => {
             <h2 className="section-title microgreens-quality__title">
               The Microgreen Finishing Touch: Purity, Freshness, Perfection
             </h2>
-            <p className="BodyFont section-subtitle microgreens-quality__subtitle">
+            <p className="section-subtitle microgreens-quality__subtitle BodyFont">
               Our microgreens aren&apos;t just for decoration. These are
               superfoods! Whether it’s baby broccoli or radish, these tiny
               plants can have up to 40 times more vitamins than the full-grown
@@ -359,18 +359,18 @@ const Philosophy = (props) => {
             <div className="microgreens-quality__card">
               <div className="microgreens-quality__card-icon">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="48"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="48"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                   ></path>
                 </svg>
               </div>
@@ -386,7 +386,7 @@ const Philosophy = (props) => {
                   }}
                 />
               </p>
-              <p className="section-content microgreens-quality__card-text">
+              <p className="microgreens-quality__card-text section-content">
                 <span className="philosophy-text23">
                   Perfect for: Pepperoni Rustico, Funghi e Cipolla
                 </span>
@@ -402,23 +402,23 @@ const Philosophy = (props) => {
             <div className="microgreens-quality__card">
               <div className="microgreens-quality__card-icon">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="48"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="48"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                   ></path>
                 </svg>
               </div>
               <h3 className="microgreens-quality__card-title">Baby Arugula</h3>
-              <p className="section-content microgreens-quality__card-text">
+              <p className="microgreens-quality__card-text section-content">
                 Tender, peppery leaves with a subtle nuttiness. Adds freshness
                 without overpowering delicate flavors.
               </p>
@@ -429,18 +429,18 @@ const Philosophy = (props) => {
             <div className="microgreens-quality__card">
               <div className="microgreens-quality__card-icon">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="48"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="48"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                   ></path>
                 </svg>
               </div>
@@ -453,7 +453,7 @@ const Philosophy = (props) => {
                   }}
                 />
               </h3>
-              <p className="section-content microgreens-quality__card-text">
+              <p className="microgreens-quality__card-text section-content">
                 Classic, slightly peppery flavor with earthy undertones.
                 Harmonizes beautifully with roasted vegetables.
                 <span
@@ -469,18 +469,18 @@ const Philosophy = (props) => {
             <div className="microgreens-quality__card">
               <div className="microgreens-quality__card-icon">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="48"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="48"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                   ></path>
                 </svg>
               </div>
@@ -512,10 +512,10 @@ const Philosophy = (props) => {
       <section className="sustainability-quality">
         <div className="sustainability-quality__container">
           <div className="sustainability-quality__header-wrapper">
-            <h2 className="sustainability-quality__title section-title">
+            <h2 className="section-title sustainability-quality__title">
               Sustainable Sourcing &amp; Delivery Excellence
             </h2>
-            <p className="sustainability-quality__subtitle section-subtitle">
+            <p className="section-subtitle sustainability-quality__subtitle">
               Our commitment extends beyond flavor to environmental
               responsibility
             </p>
@@ -524,28 +524,28 @@ const Philosophy = (props) => {
             <div className="sustainability-quality__column">
               <div className="sustainability-quality__icon-wrapper">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="64"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="64"
                   viewBox="0 0 24 24"
                 >
                   <g
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
                   >
                     <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2m10 0H9m10 0h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path>
-                    <circle cx="17" cy="18" r="2"></circle>
-                    <circle cx="7" cy="18" r="2"></circle>
+                    <circle r="2" cx="17" cy="18"></circle>
+                    <circle r="2" cx="7" cy="18"></circle>
                   </g>
                 </svg>
               </div>
               <h3 className="sustainability-quality__column-title">
                 Delivery-Only Model
               </h3>
-              <p className="sustainability-quality__column-text section-content">
+              <p className="section-content sustainability-quality__column-text">
                 Our entire operation is designed for delivery excellence via
                 Uber Eats and DoorDash. We manage timing, packaging, and quality
                 control to ensure every pizza arrives at your door as if it just
@@ -564,25 +564,25 @@ const Philosophy = (props) => {
             <div className="sustainability-quality__column">
               <div className="sustainability-quality__icon-wrapper">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="48"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="48"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881a1.79 1.79 0 0 1-.004-1.784L7.196 9.5M11 19h8.203a1.83 1.83 0 0 0 1.556-.89a1.78 1.78 0 0 0 0-1.775l-1.226-2.12m-4.533-4.786L7.196 9.5L3.1 10.598m6.244-4.787l1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.78 1.78 0 0 1 1.546.888l3.943 6.843m-4.096 7.902l4.096 1.098l1.097-4.096M14 16l-3 3l3 3"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881a1.79 1.79 0 0 1-.004-1.784L7.196 9.5M11 19h8.203a1.83 1.83 0 0 0 1.556-.89a1.78 1.78 0 0 0 0-1.775l-1.226-2.12m-4.533-4.786L7.196 9.5L3.1 10.598m6.244-4.787l1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.78 1.78 0 0 1 1.546.888l3.943 6.843m-4.096 7.902l4.096 1.098l1.097-4.096M14 16l-3 3l3 3"
                   ></path>
                 </svg>
               </div>
               <h3 className="sustainability-quality__column-title">
                 Compostable Packaging
               </h3>
-              <p className="sustainability-quality__column-text section-content">
+              <p className="section-content sustainability-quality__column-text">
                 From our microgreen cups to our pizza boxes, every piece of
                 packaging is designed to break down naturally. We eliminate
                 single-use plastics wherever possible.
@@ -608,8 +608,8 @@ const Philosophy = (props) => {
         <div className="philosophy-thq-gallery-qualitygrid-elm gallery-quality__grid">
           <div className="gallery-quality__item">
             <img
-              src="https://images.pexels.com/photos/10332298/pexels-photo-10332298.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               alt="Close-up of fresh and vibrant red San Marzano tomatoes"
+              src="https://images.pexels.com/photos/10332298/pexels-photo-10332298.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               className="gallery-quality__image"
             />
             <div className="gallery-quality__caption">
@@ -620,8 +620,8 @@ const Philosophy = (props) => {
           </div>
           <div className="gallery-quality__item">
             <img
-              src="/ai-generated/ai-generated-1766431669035-1500w.png"
               alt="Four bowls of fresh microgreens showcasing healthy eating"
+              src="/ai-generated/ai-generated-1766431669035-1500w.png"
               className="gallery-quality__image"
             />
             <div className="gallery-quality__caption">
@@ -632,8 +632,8 @@ const Philosophy = (props) => {
           </div>
           <div className="gallery-quality__item">
             <img
-              src="https://images.pexels.com/photos/28945107/pexels-photo-28945107.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               alt="Hands adding basil on pizza dough with tomato sauce"
+              src="https://images.pexels.com/photos/28945107/pexels-photo-28945107.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               className="gallery-quality__image"
             />
             <div className="gallery-quality__caption">
@@ -646,9 +646,9 @@ const Philosophy = (props) => {
       </section>
       <section className="cta-quality">
         <div className="cta-quality__split">
-          <div className="cta-quality__column cta-quality__column--content">
+          <div className="cta-quality__column--content cta-quality__column">
             <div className="cta-quality__content">
-              <h2 className="cta-quality__title section-title">
+              <h2 className="section-title cta-quality__title">
                 Experience Uncompromising Quality Delivered to Your Door
               </h2>
               <p className="cta-quality__text section-content">
@@ -662,7 +662,7 @@ const Philosophy = (props) => {
                   href="https://www.ubereats.com/ca?msockid=1298bc78b6d86c021899a903b7b56de6"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="philosophy-thq-btn-elm1 cta-quality__button btn btn-accent btn-lg"
+                  className="philosophy-thq-btn-elm1 cta-quality__button btn-accent btn btn-lg"
                 >
                   Order on Uber Eats
                 </a>
@@ -670,24 +670,24 @@ const Philosophy = (props) => {
                   href="https://www.doordash.com/?msockid=1298bc78b6d86c021899a903b7b56de6"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="philosophy-thq-btn-elm2 cta-quality__button btn btn-lg btn-secondary"
+                  className="philosophy-thq-btn-elm2 cta-quality__button btn-secondary btn btn-lg"
                 >
                   Order on DoorDash
                 </a>
               </div>
               <div className="cta-quality__guarantee">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="24"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="24"
                   viewBox="0 0 24 24"
                 >
                   <g
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
                   >
                     <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                     <path d="m9 12l2 2l4-4"></path>
@@ -699,26 +699,26 @@ const Philosophy = (props) => {
               </div>
             </div>
           </div>
-          <div className="cta-quality__column cta-quality__column--media">
+          <div className="cta-quality__column--media cta-quality__column">
             <img
-              src="https://images.pexels.com/photos/29327348/pexels-photo-29327348.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               alt="Close-up of artisan pizza with melted cheese and fresh vegetables"
+              src="https://images.pexels.com/photos/29327348/pexels-photo-29327348.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               className="cta-quality__image"
             />
             <div className="cta-quality__badge">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 width="32"
+                xmlns="http://www.w3.org/2000/svg"
                 height="32"
                 viewBox="0 0 24 24"
               >
                 <path
+                  d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                   fill="none"
                   stroke="currentColor"
+                  strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4a4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3M4 9a5 5 0 0 1 8 4a5 5 0 0 1-8-4m1 12h14"
                 ></path>
               </svg>
               <span>Signature Microgreen Finish</span>

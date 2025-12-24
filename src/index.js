@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import Ingredients from './views/ingredients'
 import Privacy from './views/privacy'
 import PrivacyPolicy from './views/privacy-policy'
 import Home from './views/home'
@@ -16,13 +17,13 @@ import Terms from './views/terms'
 import AboutUs from './views/about-us'
 import GourmetPizzaMenu from './views/gourmet-pizza-menu'
 import Philosophy from './views/philosophy'
-import Ingredients from './views/ingredients'
 import NotFound from './views/not-found'
 
 const App = () => {
   return (
     <Router>
       <Switch>
+        <Route component={Ingredients} exact path="/ingredients" />
         <Route component={Privacy} exact path="/privacy" />
         <Route component={PrivacyPolicy} exact path="/privacy-policy" />
         <Route component={Home} exact path="/" />
@@ -35,7 +36,6 @@ const App = () => {
         <Route component={AboutUs} exact path="/about-us" />
         <Route component={GourmetPizzaMenu} exact path="/gourmet-pizza-menu" />
         <Route component={Philosophy} exact path="/philosophy" />
-        <Route component={Ingredients} exact path="/ingredients" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
