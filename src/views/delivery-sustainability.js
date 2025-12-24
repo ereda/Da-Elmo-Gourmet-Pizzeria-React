@@ -192,26 +192,11 @@ const DeliverySustainability = (props) => {
               </svg>
             </summary>
             <div className="delivery-accordion-content">
-              <p className="section-content">
-                <span>
-                  {' '}
-                  Each pizza is handcrafted in our artisan kitchen using premium
-                  avocado 
-                </span>
-                <span className="delivery-sustainability-text11">
-                  oil dough and authentic San Marzano tomato sauce. We
-                  meticulously select and prepare every topping to ensure
-                  perfect flavor balance.
-                </span>
+              <p className="accordion-paragraph section-content">
                 Each pizza is handcrafted in our artisan kitchen using premium
-                avocado oil dough and authentic San Marzano tomato sauce. Our
-                chefs meticulously select and prepare every topping to ensure
-                perfect flavor balance.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+                avocado oil dough and authentic San Marzano tomato sauce. We
+                meticulously select and prepare every topping to ensure perfect
+                flavor balance.
               </p>
               <img
                 alt="Chef spreading tomato sauce on pizza dough"
@@ -450,24 +435,10 @@ const DeliverySustainability = (props) => {
             </summary>
             <div className="delivery-accordion-content">
               <p className="section-content">
-                <span>
-                  {' '}
-                  Your pizza arrives hot and ready. Simply scatter the vibrant 
-                </span>
-                <span className="delivery-sustainability-text13">
-                  microgreens from the compostable cup over your pizza for that
-                  final chef&apos;s touch. Experience the explosive freshness
-                  that defines Da Elmo Gourmet Pizzeria.
-                </span>
                 Your pizza arrives hot and ready. Simply scatter the vibrant
                 microgreens from the compostable cup over your pizza for that
                 final chef&apos;s touch. Experience the explosive freshness that
-                defines Microcrust Pizza.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+                defines Da Elmo Gourmet Pizzeria.
               </p>
               <img
                 alt="Gourmet pizza slice being lifted"
@@ -1012,26 +983,11 @@ const DeliverySustainability = (props) => {
                 ></path>
               </svg>
             </div>
-            <h3 className="microgreens-card-title">Freshness Guarantee</h3>
+            <h3 className="microgreens-card-title">Commitment to Freshness</h3>
             <p className="section-content">
-              <span>
-                {' '}
-                We guarantee your microgreens will arrive vibrant and fresh.
-              </span>
-              <span className="delivery-sustainability-text15">
-                 Our packaging system maintains optimal moisture and 
-              </span>
-              <span>
-                temperature throughout delivery.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              We guarantee your microgreens will arrive vibrant and fresh, or
-              we&apos;ll replace your order. Our packaging system maintains
-              optimal moisture and temperature throughout delivery.
+              We guarantee your microgreens will arrive vibrant and fresh. Our
+              packaging system maintains optimal moisture and temperature
+              throughout delivery.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -1077,35 +1033,9 @@ const DeliverySustainability = (props) => {
         <div className="menu-philosophy-header">
           <h2 className="section-title">Why No Customization?</h2>
           <p className="section-subtitle">
-            <span>
-              {' '}
-              Our curated menu of six chef-driven pizzas represents years of
-              culinary
-            </span>
-            <br></br>
-            <span>
-              {' '}
-              refinement. Every ingredient, every ratio, every topping is
-              perfectly
-            </span>
-            <br></br>
-            <span>
-              {' '}
-              balanced for the ultimate gourmet experience.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            Our curated menu of six chef-driven pizzas represents years of
+            Our curated menu of seven chef-driven pizzas represents years of
             culinary refinement. Every ingredient, every ratio, every topping is
             perfectly balanced for the ultimate gourmet experience.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
           </p>
         </div>
         <div className="menu-timeline">
