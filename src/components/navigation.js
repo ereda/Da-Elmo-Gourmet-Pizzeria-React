@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import Script from 'dangerous-html/react'
+import PropTypes from 'prop-types'
 
 import './navigation.css'
 
@@ -137,6 +138,11 @@ const Navigation = (props) => {
                 <span className="section-title navigation-logo-text">
                   Da Elmo
                 </span>
+                <img
+                  src={props.imageSrc}
+                  alt={props.imageAlt}
+                  className="navigation-image"
+                />
               </div>
             </a>
             <button
@@ -277,6 +283,16 @@ transform: translateY(0);}}
       </div>
     </div>
   )
+}
+
+Navigation.defaultProps = {
+  imageSrc: 'https://play.teleporthq.io/static/svg/default-img.svg',
+  imageAlt: 'image',
+}
+
+Navigation.propTypes = {
+  imageSrc: PropTypes.string,
+  imageAlt: PropTypes.string,
 }
 
 export default Navigation

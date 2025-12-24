@@ -182,7 +182,7 @@ const Home = (props) => {
                       <path d="M5 17H3v-4M2 5h11v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5M3 9h4"></path>
                     </g>
                   </svg>
-                  <h3 className="hero-main-feature-title">Delivery-First</h3>
+                  <h3 className="hero-main-feature-title">Delivery-Only</h3>
                   <p className="hero-main-feature-text">
                     {' '}
                     Seamless delivery experience from our kitchen to your table
