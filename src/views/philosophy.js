@@ -485,8 +485,7 @@ const Philosophy = (props) => {
                 </svg>
               </div>
               <h3 className="microgreens-quality__card-title">
-                {' '}
-                Fresh Basil Leaves
+                Basil Leaves
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -503,7 +502,8 @@ const Philosophy = (props) => {
                 />
               </p>
               <p className="philosophy-thq-section-content-elm19 microgreens-quality__card-text section-content">
-                Perfect for: Pizza Tricolore, Funghi e Cipolla
+                Perfect for: Pizza Tricolore, Funghi e Cipolla, Midnight
+                Marinara
               </p>
             </div>
           </div>

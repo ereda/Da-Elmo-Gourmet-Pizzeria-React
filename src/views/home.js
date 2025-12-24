@@ -463,8 +463,8 @@ const Home = (props) => {
                 <h3 className="gallery-menu-item-title">Midnight Marinara</h3>
                 <p className="gallery-menu-item-description">
                   {' '}
-                  San Marzano tomato sauce over a garlic-infused olive oil base,
-                  with savoury Parmigiano Reggiano and fresh basil.
+                  San Marzano tomato sauce over a garlic-infused avocado oil
+                  base, with savoury Parmigiano Reggiano and fresh basil.
                 </p>
               </div>
             </div>
@@ -976,23 +976,8 @@ const Home = (props) => {
           <div className="testimonials-reviews-header">
             <h2 className="section-title">What Our Customers Say</h2>
             <p className="section-subtitle">
-              <span>
-                {' '}
-                Real experiences from pizza lovers who&apos;ve discovered the Da
-                Elmo Gourmet
-              </span>
-              <br></br>
-              <span>
-                {' '}
-                difference.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              Real experiences from pizza lovers who&apos;ve discovered the
-              Microcrust difference.
+              Real experiences from pizza lovers who&apos;ve discovered the Da
+              Elmo Gourmet difference.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',

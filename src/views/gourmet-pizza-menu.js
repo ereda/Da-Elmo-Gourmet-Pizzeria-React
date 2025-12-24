@@ -304,9 +304,8 @@ const GourmetPizzaMenu = (props) => {
                   Fresh Green White Pizza
                 </p>
                 <p className="section-content">
-                  San Marzano tomato sauce over aromatic garlic-infused olive
-                  oil base, finished with a savory dusting of Parmigiano
-                  Reggiano and wild dried oregano.
+                  Garlic-infused avocado oil with fresh parsley, lemon zest,
+                  mozzarella cheese and Parmigiano Reggiano. No tomato sauce.
                 </p>
                 <div className="menu-list__item-garnish">
                   <span className="menu-list__garnish-label">
@@ -348,9 +347,9 @@ const GourmetPizzaMenu = (props) => {
                   Spicy, Rich &amp; Bold
                 </p>
                 <p className="section-content">
-                  San Marzano tomato sauce over aromatic garlic-infused olive
-                  oil base, finished with a savory dusting of Parmigiano
-                  Reggiano and wild dried oregano.
+                  High-quality pepperoni with sautéed mushrooms and roasted
+                  peppers, mozzarella cheese finished with hot honey for gourmet
+                  contrast.
                 </p>
                 <div className="menu-list__item-garnish">
                   <span className="menu-list__garnish-label">
@@ -391,9 +390,8 @@ const GourmetPizzaMenu = (props) => {
                   The Perfect Italian Classic
                 </p>
                 <p className="section-content">
-                  San Marzano tomato sauce over aromatic garlic-infused olive
-                  oil base, finished with a savory dusting of Parmigiano
-                  Reggiano and wild dried oregano.
+                  San Marzano tomato sauce, mozzarella cheese, and fresh basil.
+                  A celebration of Italy&apos;s finest ingredients.
                 </p>
                 <div className="menu-list__item-garnish">
                   <span className="menu-list__garnish-label">
@@ -434,7 +432,7 @@ const GourmetPizzaMenu = (props) => {
                   A masterpiece of Time &amp; Tradition
                 </p>
                 <p className="section-content">
-                  San Marzano tomato sauce over aromatic garlic-infused olive
+                  San Marzano tomato sauce over aromatic garlic-infused avocado
                   oil base, finished with a savory dusting of Parmigiano
                   Reggiano and wild dried oregano.
                 </p>

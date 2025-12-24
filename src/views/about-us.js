@@ -68,75 +68,37 @@ const AboutUs = (props) => {
         <div className="about-story-container">
           <div className="about-story-content">
             <h2 className="section-title">Our Story</h2>
-            <p className="section-content">
+            <p className="about-philosophy-timeline-text">
               <span>
-                {' '}
                 Da Elmo Gourmet Pizzeria was born from a singular vision: to
-                deliver a true 
+                deliver a true gourmet pizza experience without compromise. We
+                are a delivery-first, artisan kitchen dedicated to perfecting
+                every element of our craft.
               </span>
+              <br></br>
+              <br></br>
               <span>
-                gourmet pizza experience without compromise. We are a
-                delivery-first, 
-              </span>
-              <span>
-                artisan kitchen dedicated to perfecting every element of our
-                craft.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              Microcrust Pizza was born from a singular vision: to deliver a
-              true gourmet pizza experience without compromise. We are a
-              delivery-first, artisan kitchen dedicated to perfecting every
-              element of our craft.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <p className="section-content">
-              <span>
-                {' '}
                 We eliminate the complexity of customization, instead focusing
-                our
+                our expertise on seven distinct, chef-driven pizzas. Each recipe
+                is meticulously developed, balancing premium ingredients with
+                our signature microgreen finishes.
               </span>
               <br></br>
-              <span>
-                {' '}
-                expertise on seven distinct, chef-driven pizzas. Each recipe is
-              </span>
               <br></br>
               <span>
-                {' '}
-                meticulously developed, balancing premium ingredients with our
-                signature 
-              </span>
-              <span>
-                microgreen finishes.
+                From the first bite of our avocado oil dough to the vibrant
+                crunch of pesticide-free microgreens, we guarantee an experience
+                that elevates delivery pizza to haute cuisine.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
                   }}
                 />
               </span>
-              We eliminate the complexity of customization, instead focusing our
-              expertise on six distinct, chef-driven pizzas. Each recipe is
-              meticulously developed, balancing premium ingredients with our
-              signature microgreen finishes.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <p className="section-content">
-              {' '}
-              From the first bite of our avocado oil dough to the vibrant crunch
-              of pesticide-free microgreens, we guarantee an experience that
-              elevates delivery pizza to haute cuisine.
+              Our signature dough is handcrafted using premium avocado oil and
+              high-quality flour, creating a foundation that is both flavorful
+              and light. The avocado oil adds a subtle richness and helps
+              achieve the perfect crispy-yet-tender texture.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -513,7 +475,6 @@ const AboutUs = (props) => {
                   />
                 </h3>
                 <p className="about-philosophy-timeline-text">
-                  {' '}
                   We start with authentic San Marzano tomatoes, renowned for
                   their sweet flavor and low acidity. Each sauce is seasoned to
                   perfection, providing a rich, vibrant base that honors true
@@ -551,17 +512,11 @@ const AboutUs = (props) => {
                   Microgreen Mastery
                 </h3>
                 <p className="about-philosophy-timeline-text">
-                  {' '}
                   Our hallmark is the final microgreen finish. GMO-free and
                   pesticide-free, these hyper-fresh greens intentionally balance
-                  each pizza. From peppery radish microgreens to bright micro
-                  cilantro, each variety is chosen to elevate and complete the
-                  flavor profile.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  each pizza. From peppery radish microgreens to baby arugula,
+                  each variety is chosen to elevate and complete the flavor
+                  profile.
                 </p>
               </div>
             </div>
@@ -596,24 +551,9 @@ const AboutUs = (props) => {
                   />
                 </h3>
                 <p className="about-philosophy-timeline-text">
-                  <span>
-                    {' '}
-                    We use only the finest cheeses: low-moisture mozzarella for
-                    perfect 
-                  </span>
-                  <span className="about-us-text20">
-                    melt, tangy feta for Mediterranean flair, and freshly grated
-                    Parmigiano Reggiano for that finishing umami touch.
-                  </span>
                   We use only the finest cheeses: low-moisture mozzarella for
-                  perfect melt, fresh Fior di Latte for authentic Italian taste,
-                  tangy feta for Mediterranean flair, and freshly grated
-                  Parmigiano Reggiano for that finishing umami touch.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  perfect melt, tangy feta for Mediterranean flair, and freshly
+                  grated Parmigiano Reggiano for that finishing umami touch.
                 </p>
               </div>
             </div>
@@ -642,24 +582,9 @@ const AboutUs = (props) => {
                   Curated Perfection
                 </h3>
                 <p className="about-philosophy-timeline-text">
-                  <span>
-                    {' '}
-                    We focus on seven distinct pizzas, eliminating customization
-                    to 
-                  </span>
-                  <span className="about-us-text22">
-                    perfect every detail. Each recipe is chef-driven and
-                    non-negotiable, ensuring consistent excellence in every
-                    bite.
-                  </span>
-                  We focus on six distinct pizzas, eliminating customization to
-                  perfect every detail. Each recipe is chef-driven and
+                  We focus on seven distinct pizzas, eliminating customization
+                  to perfect every detail. Each recipe is chef-driven and
                   non-negotiable, ensuring consistent excellence in every bite.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
                 </p>
               </div>
             </div>
@@ -942,10 +867,9 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-content">
                   <h3 className="gallery-menu-title">Mediterranean Coast</h3>
                   <p className="gallery-menu-description">
-                    {' '}
                     Mozzarella and crumbled feta with mixed olives, Roma
-                    tomatoes, and red pepper flakes. Finished with micro
-                    cilantro for a bright, citrusy note that cuts the saltiness.
+                    tomatoes, and red pepper flakes. Finished with baby arugula
+                    for a bright, peppery note that cuts the saltiness.
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -996,23 +920,9 @@ const AboutUs = (props) => {
                 <div className="gallery-menu-content">
                   <h3 className="gallery-menu-title">Verde Fresco</h3>
                   <p className="gallery-menu-description">
-                    <span>
-                      {' '}
-                      White pizza with olive oil, garlic, parsley, and lemon
-                      juice base. 
-                    </span>
-                    <span className="about-us-text27">
-                      Fresh mozzarella, finished with baby arugula for a bright,
-                      herbaceous, and peppery note.
-                    </span>
-                    White pizza with olive oil, garlic, parsley, and lemon juice
-                    base. Fresh Fior di Latte mozzarella, finished with baby
-                    arugula for a bright, herbaceous, and peppery note.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                    White pizza with avocado oil, garlic, parsley, and lemon
+                    zest base. Fresh mozzarella, finished with baby arugula for
+                    a bright, herbaceous, and peppery note.
                   </p>
                   <div className="gallery-menu-badge">
                     <span>Baby Arugula</span>
@@ -1320,28 +1230,8 @@ const AboutUs = (props) => {
         <div className="team-container">
           <h2 className="section-title">The Head of the Kitchen</h2>
           <p className="section-subtitle">
-            <span>
-              {' '}
-              Meet the Executive Chef and Owner behind every perfectly crafted
-              pizza, from dough to
-            </span>
-            <br></br>
-            <span>
-              {' '}
-              microgreen finish.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            Meet the artisans behind every perfectly crafted pizza, from dough
-            to microgreen finish.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
+            Meet the Executive Chef and Owner behind every perfectly crafted
+            pizza, from dough to microgreen finish.
           </p>
           <div className="team-carousel">
             <div className="team-track">
